@@ -1,8 +1,8 @@
 {
   "data": {
-    "edges": [
+    "FactSheets": [
       {
-        "node": {
+        "FactSheet": {
           "id": "28fe4aa2-6e46-41a1-a131-72afb3acf256",
           "type": "Application",
           "category": null,
@@ -24,11 +24,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "3006b80f-f5aa-4ad9-9277-573d91f06582",
+                "RelationTo": {
                   "factSheet": {
                     "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
                     "type": "BusinessCapability",
@@ -42,7 +41,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "8f021f46-67e1-4ec5-aae2-e11a05dad253",
           "type": "Application",
           "category": null,
@@ -56,11 +55,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "ae9031e1-3a65-49cf-9f50-cb1aaec76f60",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -74,7 +72,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "14a29d03-e96e-4bb7-8ac7-24c168b44fbf",
           "type": "Application",
           "category": null,
@@ -96,11 +94,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "3cc9e4ff-3da5-4d56-93cc-17318f2b9db6",
+                "RelationTo": {
                   "factSheet": {
                     "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
                     "type": "BusinessCapability",
@@ -114,7 +111,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "26be83c4-2b7f-479e-b3f9-ef0006db54ba",
           "type": "Application",
           "category": null,
@@ -128,11 +125,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "8c0f839e-1c4f-4e91-8916-0f3103214782",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -146,7 +142,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "5d927321-84b2-47ec-8653-25110ccf9872",
           "type": "Application",
           "category": null,
@@ -160,11 +156,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "afbe9e66-3cf5-4c72-8735-5a977479e43b",
+                "RelationTo": {
                   "factSheet": {
                     "id": "3615c0bf-d16a-41b0-89f6-076936af8acd",
                     "type": "BusinessCapability",
@@ -178,7 +173,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "6c27902e-3f85-4f1a-af8c-92a4ea9f7a6c",
           "type": "Application",
           "category": null,
@@ -196,11 +191,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "f3337162-bd6f-41b6-bf4a-4a3ce1ef7b03",
+                "RelationTo": {
                   "factSheet": {
                     "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
                     "type": "BusinessCapability",
@@ -214,17 +208,16 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "73be569f-e279-4293-b815-916a3bc10647",
           "type": "Application",
           "category": null,
           "description": null,
           "lifecycle": null,
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "8dd0c0e0-1918-4a0c-9713-66446c1830f5",
+                "RelationTo": {
                   "factSheet": {
                     "id": "9aa297ff-4177-47f5-8ccf-b3b67a73d63b",
                     "type": "BusinessCapability",
@@ -238,7 +231,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "4e7db63e-92ef-4c75-80ce-790af877c3fa",
           "type": "Application",
           "category": null,
@@ -256,11 +249,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "328362eb-af9a-4fdc-a9f2-58ff20816dbf",
+                "RelationTo": {
                   "factSheet": {
                     "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
                     "type": "BusinessCapability",
@@ -274,7 +266,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "2f17a77f-036e-448b-80c6-4873f30b6ed5",
           "type": "Application",
           "category": null,
@@ -288,11 +280,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "cbba45fe-f802-415a-afba-22fda65314fe",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -306,7 +297,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "c408569d-b925-44f5-a5b8-48e89f623eb9",
           "type": "Application",
           "category": null,
@@ -320,11 +311,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "94c91662-553c-4ea9-8265-721eefb04b85",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -338,7 +328,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "4a29ee5c-56bd-4db9-9360-d065f0f34f23",
           "type": "Application",
           "category": null,
@@ -356,11 +346,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "b691fd9c-bb48-4ea3-aa67-0931435ade9d",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -374,7 +363,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "b9b13c59-cf09-46a7-a150-478a464cfa38",
           "type": "Application",
           "category": null,
@@ -388,11 +377,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "a4628747-2ca3-47b3-866b-42f9ef3190e2",
+                "RelationTo": {
                   "factSheet": {
                     "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
                     "type": "BusinessCapability",
@@ -406,7 +394,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "0f535fd8-5ef6-42b1-85dd-b87ebd19224c",
           "type": "Application",
           "category": null,
@@ -420,11 +408,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "685c76f6-565f-4ac9-bf05-baa4afb7eb14",
+                "RelationTo": {
                   "factSheet": {
                     "id": "0a2a8510-40de-450b-b4ad-ee6efa6dbefc",
                     "type": "BusinessCapability",
@@ -438,7 +425,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "a97d05c9-6695-443e-9f83-42eab141d07f",
           "type": "Application",
           "category": null,
@@ -452,11 +439,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "65a6a61e-d6e6-43ec-947d-d13b540df565",
+                "RelationTo": {
                   "factSheet": {
                     "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
                     "type": "BusinessCapability",
@@ -470,7 +456,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "ddcc0f4b-a1f8-48c1-994d-1e80d7f746ee",
           "type": "Application",
           "category": null,
@@ -488,11 +474,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "09b55fc8-b7b4-45e7-b182-83de3f5f44ee",
+                "RelationTo": {
                   "factSheet": {
                     "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
                     "type": "BusinessCapability",
@@ -506,7 +491,7 @@
         }
       },
       {
-        "node": {
+        "FactSheet": {
           "id": "dec8a3f7-f291-4075-8fb2-4221c6ed140b",
           "type": "Application",
           "category": null,
@@ -524,11 +509,10 @@
               }
             ]
           },
-          "RelationToBusinessCapability": {
-            "edges": [
+          "RelationsToBusinessCapability": {
+            "Relations": [
               {
-                "node": {
-                  "id": "86e607e7-990f-457d-a2f0-0164455dbc16",
+                "RelationTo": {
                   "factSheet": {
                     "id": "3615c0bf-d16a-41b0-89f6-076936af8acd",
                     "type": "BusinessCapability",

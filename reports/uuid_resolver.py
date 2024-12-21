@@ -75,11 +75,30 @@ def transform_json_structure(data):
             print("\nReport Page Info:")
             print(json.dumps(report_page_info, indent=2))
             
-            # Transform the edges content
-            if 'edges' in value['current']:
-                edges_content = transform_json_structure({'edges': value['current']['edges']})
-                new_data[key] = edges_content
+            # Transform the edges content to FactSheets
+            if 'edges' in value['current'] and isinstance(value['current']['edges'], list):
+                factsheets = []
+                for edge in value['current']['edges']:
+                    if isinstance(edge, dict) and 'node' in edge:
+                        # Recursively transform the contents of the node
+                        factsheet = transform_json_structure(edge['node'])
+                        factsheets.append({'FactSheet': factsheet})
+                new_data[key] = {'FactSheets': factsheets}
             continue
+        
+        # Process relations before renaming
+        if isinstance(key, str) and key.startswith('rel') and isinstance(value, dict) and 'edges' in value:
+            # Only transform if edges is a list
+            if isinstance(value['edges'], list):
+                # Remove 'id' from nodes and rename edges/node structure
+                relations = []
+                for edge in value['edges']:
+                    if isinstance(edge, dict) and 'node' in edge and isinstance(edge['node'], dict):
+                        relation = edge['node']
+                        if 'id' in relation:
+                            del relation['id']
+                        relations.append({'RelationTo': relation})
+                value = {'Relations': relations}
         
         # Handle relXToY patterns
         if isinstance(key, str) and key.startswith('rel'):
@@ -91,7 +110,7 @@ def transform_json_structure(data):
                 # Find everything after the first 'To'
                 parts = key.split('To', 1)
                 if len(parts) > 1:
-                    new_key = 'RelationTo' + parts[1]
+                    new_key = 'RelationsTo' + parts[1]
         
         # Recursively transform nested structures
         if isinstance(value, dict):
@@ -237,7 +256,7 @@ def count_fact_sheets(data):
                 count += count_fact_sheets(item)
     return count
 
-def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects, total_fact_sheets):
+def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects):
     global base_url, access_token
     global resolution_count, error_count, total_uuids
     resolution_count = 0
@@ -252,8 +271,7 @@ def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects, 
     
     print(f"\nUUID resolution completed:")
     print(f"- Successfully resolved: {resolution_count}/{total_uuids}")
-    print(f"- Failed to resolve: {error_count}/{total_uuids}")
-    print(f"- Total Fact Sheets in input: {total_fact_sheets}")
+    print(f"- Failed to resolve: {error_count}")
 
 def initialize_workspace(instance, ws_token):
     """Initialize workspace and get access token"""
@@ -274,14 +292,11 @@ def process_input_file(input_file, output_file, instance, ws_token):
     with open(input_file, 'r') as f:
         data = json.load(f)
     
-    # Count fact sheets before transformation
-    total_fact_sheets = count_fact_sheets(data)
-    
     # Transform JSON structure
     data = transform_json_structure(data)
     
     # Resolve UUIDs
-    resolve_uuids_from_bookmark_objects(base_url, access_token, [data], total_fact_sheets)
+    resolve_uuids_from_bookmark_objects(base_url, access_token, [data])
     
     # Write output
     with open(output_file, 'w') as f:
