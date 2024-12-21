@@ -1,0 +1,14 @@
+INSTRUCTIONS:
+    You are given a JSON as INPUT of an "Application Landscape" in the context of Enterprise Architecture with LeanIX. 
+    Your task is to analyze it and find the top most problematic or relevant Applications that should be looked at.
+    Concentrate on the REPORT SETTINGS. This is what the user wants to look on and concentrate on.
+    Don't change the name of any item on the INPUT.
+
+REPORT SETTINGS:
+    The report shows Applications clustered by Business Capability.
+    The report focuses on businessCriticality, functionalSuitability and technicalSuitability.
+
+OUTPUT:
+    Give me a list with the name of the application and a short reason (1-2 sentences) why you identified it as relevant to look at. 
+    Don't list any other information from the INPUT.
+    Sort the list so that the most problematic or relevant application is at the top.

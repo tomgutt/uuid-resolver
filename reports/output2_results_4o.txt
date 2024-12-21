@@ -1,0 +1,23 @@
+Problematic Applications (sorted by criticality and issues):
+	1.	Statuspage
+	•	Reason: Both functional suitability and technical suitability are rated as “unreasonable,” making it highly problematic for its role in “Platform and Service Operations.”
+	2.	TUPPAS
+	•	Reason: Marked as “mission-critical” with both functional and technical suitability rated “unreasonable,” posing significant risk to production management in the USA.
+	3.	Lex Actual
+	•	Reason: Rated as “mission-critical” but has “unreasonable” ratings for both functional and technical suitability, impacting legal processes.
+	4.	Mailsnake
+	•	Reason: “Mission-critical” application with “unreasonable” functional suitability and “inappropriate” technical suitability, impacting after-sales service and infrastructure services.
+	5.	Adobe InDesign
+	•	Reason: “Business-critical” with “insufficient” functional suitability and “inappropriate” technical suitability, creating inefficiencies in corporate communications.
+	6.	ARGOS
+	•	Reason: “Business-critical” but rated “insufficient” for functional suitability and “unreasonable” for technical suitability, critical for infrastructure services.
+	7.	Bonus Card Europe
+	•	Reason: “Business-operational” application with “unreasonable” ratings for both functional and technical suitability, affecting the community bonus program in Europe.
+	8.	QMCheck
+	•	Reason: “Mission-critical” with “insufficient” functional suitability and “unreasonable” technical suitability, causing challenges in quality assurance.
+	9.	Camunda Modeler
+	•	Reason: “Business-critical” but marked as “unreasonable” in technical suitability, essential for platform configuration.
+	10.	CustEchoe Asia/Pacific
+	•	Reason: “Mission-critical” with “unreasonable” functional suitability, impacting customer service in the Asia/Pacific region.
+
+These applications demand immediate attention based on their criticality to business operations and the extent of their functional and technical issues.
