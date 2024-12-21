@@ -1,0 +1,21 @@
+Below is a short, prioritized list of applications that stand out as particularly relevant or potentially problematic, based on a combination of their Time Classification, Business Criticality, and License Cost. Each entry includes only the application’s name and a concise reason:
+	1.	CustEchoe New
+Eliminate + missionCritical + high license cost. Critical system flagged for elimination but with a large price tag.
+	2.	SAP ERP / SAP FI
+Eliminate + businessCritical + high license cost. Core financial application marked for elimination.
+	3.	Okta Advanced Server Access
+Eliminate + missionCritical + notable license cost. Security-focused and mission-critical yet scheduled for elimination.
+	4.	SAP ERP / SAP BI
+Tolerate + businessOperational + very high license cost. Extremely expensive yet only “tolerated.”
+	5.	Microsoft Azure
+Tolerate + businessCritical + substantial license cost. Important infrastructure classified as “tolerate.”
+	6.	SAP ERP / SAP CO
+Invest + businessCritical + high license cost. Large investment required for a core controlling module.
+	7.	Bonus Card Europe
+Eliminate + businessOperational + high license cost. Significant loyalty program tool slated for elimination.
+	8.	Payroll RoW
+Invest + businessCritical + high license cost. Key payroll solution requiring substantial investment.
+	9.	Mailgun
+Tolerate + businessOperational + high license cost. Email infrastructure with a substantial ongoing cost.
+	10.	AC Management Cloud
+Invest + businessCritical + notable license cost. Critical recruiting application earmarked for further investment.

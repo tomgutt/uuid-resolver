@@ -1,0 +1,13 @@
+Here is a list of the most problematic or relevant applications based on the specified criteria (time classification, business criticality, and license cost):
+	1.	SAP ERP / SAP BI - High license cost of 2,400,000 and classified as “Tolerate,” making it a significant financial burden while not being prioritized for improvement.
+	2.	SAP ERP / SAP FI - Classified as “Eliminate” with a very high license cost of 452,111, indicating an urgent need for review and potential replacement.
+	3.	Payroll Europe - An “Invest” application with an exceptionally high license cost of 467,000, requiring evaluation for ROI and justification.
+	4.	Mailsnake - Classified as “Eliminate” with a substantial license cost of 85,000, making it a priority for phase-out and cost-saving measures.
+	5.	Microsoft Azure - Classified as “Tolerate” with a high license cost of 245,000, suggesting inefficiencies in its current role and a need for optimization.
+	6.	Mailgun - High operational cost of 165,000 and classified as “Tolerate,” indicating it may no longer be a strategic fit.
+	7.	CustEchoe New - Classified as “Eliminate” but with a very high license cost of 145,000, highlighting misalignment between strategic direction and cost.
+	8.	Pendo - Significant cost of 110,000 under “Eliminate” classification, necessitating urgent action to align expenses with strategy.
+	9.	Okta Advanced Server Access - Classified as “Eliminate” with a notable cost of 76,000, making it a candidate for immediate cost reduction.
+	10.	Training Management - Marked for elimination with a high cost of 96,500, requiring analysis of alternative solutions.
+
+These applications are listed in order of priority for review based on the potential impact of their costs and classification alignment with business strategy.
