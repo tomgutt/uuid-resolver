@@ -1,0 +1,2894 @@
+{
+  "data": {
+    "edges": [
+      {
+        "node": {
+          "id": "28fe4aa2-6e46-41a1-a131-72afb3acf256",
+          "type": "Application",
+          "category": null,
+          "description": "Assessment Center Management supports all major functions for planning, organizing and managing our assessment center. This is usable for external and internal applicants.",
+          "businessCriticality": "better",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3006b80f-f5aa-4ad9-9277-573d91f06582",
+                  "factSheet": {
+                    "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
+                    "type": "BusinessCapability",
+                    "fullName": "Recruiting"
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "cac94265-7703-463f-b8c3-7aff158a4afb",
+                  "factSheet": {
+                    "id": "9aa297ff-4177-47f5-8ccf-b3b67a73d63b",
+                    "type": "BusinessCapability",
+                    "fullName": "HR"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "AC Management"
+        }
+      },
+      {
+        "node": {
+          "id": "91a18208-aade-4a64-ae58-11a6a307a26e",
+          "type": "Application",
+          "category": null,
+          "description": "AttorneyNet is an inventory of all lawyers around the world we are working together.",
+          "businessCriticality": "best",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "33c1fbfc-c8a8-437b-bb7e-25dd42d75043",
+                  "factSheet": {
+                    "id": "5634544d-4cd3-4533-b190-3f947a99e752",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Relationship"
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "88f6c0a8-474c-4a04-974b-8f6145f14413",
+                  "factSheet": {
+                    "id": "bcb62a37-e503-4888-bb06-57745d6f5a56",
+                    "type": "BusinessCapability",
+                    "fullName": "Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "AttorneyNet"
+        }
+      },
+      {
+        "node": {
+          "id": "001d3e51-a3be-4d5b-90f7-5b7a9e0b9458",
+          "type": "Application",
+          "category": null,
+          "description": "To perform Audit projects audimex is the companion for managing all aspects of such projects, COBIT compliant.",
+          "businessCriticality": "best",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "25b780eb-2445-4041-836a-1af1b28b33fd",
+                  "factSheet": {
+                    "id": "ddbc21bf-ddb1-4639-b3fa-5df841e8cd35",
+                    "type": "BusinessCapability",
+                    "fullName": "Audit/Assurance/Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "audimex"
+        }
+      },
+      {
+        "node": {
+          "id": "e5322a3c-c499-4b78-a45a-908a916d9704",
+          "type": "Application",
+          "category": null,
+          "description": "In Development and construction we use AutoCAD as the CAD program. It is connected with everything to ensure most effective and efficient use.",
+          "businessCriticality": "best",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c2c444de-4c54-4a2e-b1f4-69d462e3a22c",
+                  "factSheet": {
+                    "id": "ff55f251-afce-4ddd-80d2-49e4c44b1f86",
+                    "type": "BusinessCapability",
+                    "fullName": "Product Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "AutoCAD"
+        }
+      },
+      {
+        "node": {
+          "id": "daddde61-1f50-4ab1-bbfd-36f0a5329988",
+          "type": "Application",
+          "category": null,
+          "description": "This is the special version for Americas to increase customer loyalty",
+          "businessCriticality": "best",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "feb03d0c-6801-4f6d-b483-1a55ec9d60b9",
+                  "factSheet": {
+                    "id": "1304cef6-ebb2-44ab-9021-d2e405d79274",
+                    "type": "BusinessCapability",
+                    "fullName": "Retention & Loyalty Programs"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Bonus Card Americas"
+        }
+      },
+      {
+        "node": {
+          "id": "9dc25869-ff39-46ef-aefb-3b407ffbc9db",
+          "type": "Application",
+          "category": null,
+          "description": "Due to different requirements in the regions for each region a dedicated bonus program exist, this is for Asia/Pacific",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3d6ddf84-168b-4e98-8cf2-2b779f23c571",
+                  "factSheet": {
+                    "id": "1304cef6-ebb2-44ab-9021-d2e405d79274",
+                    "type": "BusinessCapability",
+                    "fullName": "Retention & Loyalty Programs"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Bonus Card Asia/Pacific"
+        }
+      },
+      {
+        "node": {
+          "id": "90492d17-4dc3-421a-911b-aa906d05f116",
+          "type": "Application",
+          "category": null,
+          "description": "Due to different requirements in the regions for each region a dedicated bonus program exist, this is for Europe",
+          "businessCriticality": "better",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "adf5efda-401a-4bd0-b3e7-08cfb74edd80",
+                  "factSheet": {
+                    "id": "1304cef6-ebb2-44ab-9021-d2e405d79274",
+                    "type": "BusinessCapability",
+                    "fullName": "Retention & Loyalty Programs"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Bonus Card Europe"
+        }
+      },
+      {
+        "node": {
+          "id": "25eda1ec-7b46-40d5-967d-40944ca6510a",
+          "type": "Application",
+          "category": null,
+          "description": "With this application the use of the bonus card per customer is tracked",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "b157f48f-ef62-418f-9369-54aad3d637b1",
+                  "factSheet": {
+                    "id": "1304cef6-ebb2-44ab-9021-d2e405d79274",
+                    "type": "BusinessCapability",
+                    "fullName": "Retention & Loyalty Programs"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Bonus Card Use Watch"
+        }
+      },
+      {
+        "node": {
+          "id": "bb540308-fe7a-406a-aaf0-1a46ae57577a",
+          "type": "Application",
+          "category": null,
+          "description": "Business Process Management",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e1c856ad-d5e9-47f4-b132-ad8241ff9707",
+                  "factSheet": {
+                    "id": "f4120e92-4517-4f2f-8b75-cf3efddf7b82",
+                    "type": "BusinessCapability",
+                    "fullName": "Distribution Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "BPM"
+        }
+      },
+      {
+        "node": {
+          "id": "50365418-7351-44ad-8b23-ad8e0bd1ac7a",
+          "type": "Application",
+          "category": null,
+          "description": "brand maker is a marketing resource management tool and covers functions such as marketing planning and reporting",
+          "businessCriticality": "better",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e6a37f17-cce3-49fd-9367-74ed785cf9fd",
+                  "factSheet": {
+                    "id": "b8e2bad7-d128-459d-90fa-ee70f191f851",
+                    "type": "BusinessCapability",
+                    "fullName": "Campaign Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "brand maker"
+        }
+      },
+      {
+        "node": {
+          "id": "d8dc25a5-8efb-49c6-8b70-90db625a44c7",
+          "type": "Application",
+          "category": null,
+          "description": "Bring your own device (BYOD) is the directory of all private devices with access to our infratsructure",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "38055bb8-7f65-4948-9f68-ef1eb9a22ceb",
+                  "factSheet": {
+                    "id": "96289f53-c82a-40d8-b76f-02a3616f2cb3",
+                    "type": "BusinessCapability",
+                    "fullName": "Mobile Device Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "BYOD Directory"
+        }
+      },
+      {
+        "node": {
+          "id": "728926ed-e9aa-4ec2-b790-875e39792a58",
+          "type": "Application",
+          "category": null,
+          "description": "For the management of a call center this application is totally crucial. You can manage working schedule, call routing, customer information, and so on",
+          "businessCriticality": "better",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "7516f666-70fd-4fc8-875e-a9d5f8b1a922",
+                  "factSheet": {
+                    "id": "0fa743af-e684-4b7f-8bbf-490ab9fe9060",
+                    "type": "BusinessCapability",
+                    "fullName": "After Sales Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Call Center Management"
+        }
+      },
+      {
+        "node": {
+          "id": "6a6d5076-73ec-4d94-9515-90d6121b3446",
+          "type": "Application",
+          "category": null,
+          "description": "For the management of a call center this application is totally crucial. You can manage working schedule, call routing, customer information, and so on",
+          "businessCriticality": "better",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "de1ff317-c07a-4276-82f4-38abc62c0031",
+                  "factSheet": {
+                    "id": "0fa743af-e684-4b7f-8bbf-490ab9fe9060",
+                    "type": "BusinessCapability",
+                    "fullName": "After Sales Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Call Center Management 2.0"
+        }
+      },
+      {
+        "node": {
+          "id": "2311437f-0ce0-49b5-ba32-e2dae8a52659",
+          "type": "Application",
+          "category": null,
+          "description": "With this application you can plan and track the production capacity. This app includes also reports for historical comparison",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c5a4d82a-53f5-4644-a0d9-b00fe716562a",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Capacity"
+        }
+      },
+      {
+        "node": {
+          "id": "c90ae45a-b163-42fa-841b-3f738122775c",
+          "type": "Application",
+          "category": null,
+          "description": "Corporate Idendity Information Database containing all rules and examples for design of corporate materials",
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "2275ac62-e883-4bb7-9443-444d3aa11801",
+                  "factSheet": {
+                    "id": "258fa168-43b2-49e6-a5c7-f17b4f05fad9",
+                    "type": "BusinessCapability",
+                    "fullName": "Corporate Communications"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CID"
+        }
+      },
+      {
+        "node": {
+          "id": "15e59ed2-6ad4-4d79-9430-500cca91fa19",
+          "type": "Application",
+          "category": null,
+          "description": "Corporate information system ",
+          "businessCriticality": "worst",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "1d115d99-0dd6-41c0-a952-a6ccdd6cc52e",
+                  "factSheet": {
+                    "id": "833016fa-3401-4089-96e6-f8b08fa142e5",
+                    "type": "BusinessCapability",
+                    "fullName": "Management Reporting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CIS"
+        }
+      },
+      {
+        "node": {
+          "id": "2d912343-92ff-45a9-8ef3-a5a56264af97",
+          "type": "Application",
+          "category": null,
+          "description": "Chart of Accounts",
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "42b461f4-510d-44e1-8e01-4a00b92c4e45",
+                  "factSheet": {
+                    "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0",
+                    "type": "BusinessCapability",
+                    "fullName": "Financial Planning & Forecasting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CoA"
+        }
+      },
+      {
+        "node": {
+          "id": "9fbf0823-4298-41b5-bb0a-552ae0067177",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "263eab3c-a2cf-478a-9379-a4f635809821",
+                  "factSheet": {
+                    "id": "7b2c4358-3245-4648-8b98-fc0caa6b990b",
+                    "type": "BusinessCapability",
+                    "fullName": "Purchasing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Contract Management"
+        }
+      },
+      {
+        "node": {
+          "id": "c2721fc1-c7c3-4b59-ad74-432399823330",
+          "type": "Application",
+          "category": null,
+          "description": "Cost Modelling is the tool to better manage production cost. It lets you define cost driver, assign cost values and adjust quantity per cost driver. ",
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "503793cc-2d52-4f86-83bb-177853850bc5",
+                  "factSheet": {
+                    "id": "645c1d2e-e5a7-45be-b62c-b2e2c2f227da",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Costing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Cost Modelling"
+        }
+      },
+      {
+        "node": {
+          "id": "001c3e45-aa0f-458b-b919-065b178ee514",
+          "type": "Application",
+          "category": null,
+          "description": "Customer Feedback Analysis Tool for Americas",
+          "businessCriticality": "worst",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "a740529e-1634-41b6-8f9e-0dc83318b308",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CustEchoe Americas"
+        }
+      },
+      {
+        "node": {
+          "id": "7de29b8c-5a7d-448d-99d0-0a5486421bc1",
+          "type": "Application",
+          "category": null,
+          "description": "Customer Feedback Analysis Tool for Asia and Pacific",
+          "businessCriticality": "worst",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "96d56599-7b7a-4bd3-b56a-43f64da71511",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CustEchoe Asia/Pacific"
+        }
+      },
+      {
+        "node": {
+          "id": "81074707-5ce5-4700-96fa-37eb464abf9c",
+          "type": "Application",
+          "category": null,
+          "description": "Customer Feedback Analysis Tool for Europe",
+          "businessCriticality": "worst",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "150632ca-269f-4631-bab3-f427a214d1eb",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CustEchoe Europe"
+        }
+      },
+      {
+        "node": {
+          "id": "198dc748-90bd-47fc-8c1f-02d9520bfd36",
+          "type": "Application",
+          "category": null,
+          "description": "Next Generation Customer Feedback Analysis Tool",
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "f88680a2-0c8c-4a3b-87eb-836e70bcfca4",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "CustEchoe New"
+        }
+      },
+      {
+        "node": {
+          "id": "1cee5ffa-c4da-4fa0-a856-60e506188114",
+          "type": "Application",
+          "category": null,
+          "description": "Document Management system which stores all technical drawings, contracts, orders, invoices, ... with the intelligent index and search mechanism all documents can be found easily",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "aecaa5a6-40a1-49ea-9cc3-520b05523366",
+                  "factSheet": {
+                    "id": "ff55f251-afce-4ddd-80d2-49e4c44b1f86",
+                    "type": "BusinessCapability",
+                    "fullName": "Product Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "DocMan"
+        }
+      },
+      {
+        "node": {
+          "id": "8f021f46-67e1-4ec5-aae2-e11a05dad253",
+          "type": "Application",
+          "category": null,
+          "description": "Employee Appraisals are managed with EmpAppraise, preparation and workflow is supported.",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "ae9031e1-3a65-49cf-9f50-cb1aaec76f60",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "EmpAppraise"
+        }
+      },
+      {
+        "node": {
+          "id": "8056e3b2-fae0-4904-8f7e-f899276cdb05",
+          "type": "Application",
+          "category": null,
+          "description": "This is our internal tool for organizing all request for materials",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bebfa8ca-b87d-4ae4-9497-6705680fcf67",
+                  "factSheet": {
+                    "id": "7b2c4358-3245-4648-8b98-fc0caa6b990b",
+                    "type": "BusinessCapability",
+                    "fullName": "Purchasing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "eShopping"
+        }
+      },
+      {
+        "node": {
+          "id": "ced963cc-6188-48da-a70b-2469363c471f",
+          "type": "Application",
+          "category": null,
+          "description": "Event Planner Application for planning external and internal events",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "8eee79c7-9a54-4e0c-8dac-b709fe093ef5",
+                  "factSheet": {
+                    "id": "582da78b-ee52-4cd6-91fa-05a311d9ce06",
+                    "type": "BusinessCapability",
+                    "fullName": "Event Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Event Plan"
+        }
+      },
+      {
+        "node": {
+          "id": "3e096448-db65-4e29-9fd5-2f919abd8209",
+          "type": "Application",
+          "category": null,
+          "description": "This tool contains all relevant activities for every planned change with regards to the strategy",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "1b662b8e-6de1-4925-a562-31680e493c95",
+                  "factSheet": {
+                    "id": "31fc846a-9708-48b7-bcc2-6b4d5e79ae57",
+                    "type": "BusinessCapability",
+                    "fullName": "Strategic Planning"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "EXCEL Planning Tool"
+        }
+      },
+      {
+        "node": {
+          "id": "e3a08f5f-5c3e-4dc1-8444-ed87bdd48634",
+          "type": "Application",
+          "category": null,
+          "description": "Mail Management",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3822e3f3-cdc6-4f92-9f6c-4f881cd766b2",
+                  "factSheet": {
+                    "id": "203876be-6ac0-4461-a14c-e2058433fc84",
+                    "type": "BusinessCapability",
+                    "fullName": "Collaboration"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Exchange"
+        }
+      },
+      {
+        "node": {
+          "id": "14a29d03-e96e-4bb7-8ac7-24c168b44fbf",
+          "type": "Application",
+          "category": null,
+          "description": "Executives are tracked with ExecuTrack",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3cc9e4ff-3da5-4d56-93cc-17318f2b9db6",
+                  "factSheet": {
+                    "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
+                    "type": "BusinessCapability",
+                    "fullName": "Training & Skills Enhancements"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "ExecuTrack"
+        }
+      },
+      {
+        "node": {
+          "id": "97d309e1-7571-4b06-9dc5-b4339ecec997",
+          "type": "Application",
+          "category": null,
+          "description": "faceLift is the provider for different facebook apps and the fan Activator\n",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "9f6ef8b8-da58-4b39-ae52-2a1b9170cae5",
+                  "factSheet": {
+                    "id": "b8e2bad7-d128-459d-90fa-ee70f191f851",
+                    "type": "BusinessCapability",
+                    "fullName": "Campaign Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "faceLift"
+        }
+      },
+      {
+        "node": {
+          "id": "3a28f34d-c6df-41ae-8e78-807d8b8df94f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "abe35f34-a60c-45f6-b256-a4e2e40811d9",
+                  "factSheet": {
+                    "id": "b5e0fc18-bef0-414d-a38a-3409a2f8c01f",
+                    "type": "BusinessCapability",
+                    "fullName": "Fleet Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "FMS"
+        }
+      },
+      {
+        "node": {
+          "id": "bf34be7b-c990-4a79-8fec-733fe79402f4",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": []
+          },
+          "displayName": "Friday.com"
+        }
+      },
+      {
+        "node": {
+          "id": "2e1afd87-72e4-4d89-ba15-faae26de2645",
+          "type": "Application",
+          "category": null,
+          "description": "With this application you can plan and track the production capacity. This app includes also reports for historical comparison",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "fe93ce1d-fde6-44a3-8928-1c00606eee01",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Global Capacity Management"
+        }
+      },
+      {
+        "node": {
+          "id": "feca1cf0-837c-4645-a7cf-752440241ca0",
+          "type": "Application",
+          "category": null,
+          "description": "We use Google to support our research efforts with public available information and trends from the internet",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c12328be-c66f-4304-a5d0-c81f44da8727",
+                  "factSheet": {
+                    "id": "88bd0f41-187b-44d3-a885-fc58fc54cd2c",
+                    "type": "BusinessCapability",
+                    "fullName": "Research"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Google"
+        }
+      },
+      {
+        "node": {
+          "id": "3ab27ef5-c433-4777-8890-a011bd3186f3",
+          "type": "Application",
+          "category": null,
+          "description": "Google Analytics enables us to better understand the usage from our websites by providing a lot of information and analyzing capabilities\n",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "0cce1737-dfb0-4abe-ae9c-b9a8816df019",
+                  "factSheet": {
+                    "id": "b8e2bad7-d128-459d-90fa-ee70f191f851",
+                    "type": "BusinessCapability",
+                    "fullName": "Campaign Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Google Analytics"
+        }
+      },
+      {
+        "node": {
+          "id": "e11a6f72-5051-4eb2-a1fd-e0a8634500ce",
+          "type": "Application",
+          "category": null,
+          "description": "Governance Reporting for all corporate wide processes, SOX-Compliance, and so on",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "8da682eb-35b3-48c2-ab7f-519387b3ae3c",
+                  "factSheet": {
+                    "id": "3282630b-0c78-48ab-b02a-9307ccf8ff49",
+                    "type": "BusinessCapability",
+                    "fullName": "Corporate Governance"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Govi"
+        }
+      },
+      {
+        "node": {
+          "id": "28d2601b-8048-49aa-854e-79cc50f48f37",
+          "type": "Application",
+          "category": null,
+          "description": "With HP Service Desk we manage all service tickets and the service desk management",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "487680ac-d3f2-4ab1-9f6a-09f3b87f24af",
+                  "factSheet": {
+                    "id": "9842fb15-9db0-4da0-8ed9-310a75c8cb48",
+                    "type": "BusinessCapability",
+                    "fullName": "Desktop services & Help desk"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "HP Service Desk"
+        }
+      },
+      {
+        "node": {
+          "id": "26be83c4-2b7f-479e-b3f9-ef0006db54ba",
+          "type": "Application",
+          "category": null,
+          "description": "HR Admin supports the whole lifecycle of an employee, data management of all employee information, administration, payroll preparation, absence management",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "8c0f839e-1c4f-4e91-8916-0f3103214782",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "HR Admin"
+        }
+      },
+      {
+        "node": {
+          "id": "5d927321-84b2-47ec-8653-25110ccf9872",
+          "type": "Application",
+          "category": null,
+          "description": "HR Plan plans the development of our workforce, from a qualitative and quantitative aspect",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "afbe9e66-3cf5-4c72-8735-5a977479e43b",
+                  "factSheet": {
+                    "id": "3615c0bf-d16a-41b0-89f6-076936af8acd",
+                    "type": "BusinessCapability",
+                    "fullName": "Workforce Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "HR Plan"
+        }
+      },
+      {
+        "node": {
+          "id": "36485eed-512b-4ea1-b592-8e332c6483e7",
+          "type": "Application",
+          "category": null,
+          "description": "Social Media Management Dashboard evaluating the impact of the company social media activities",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "411d7d4d-6fcf-4ade-a123-fc2f57c7cce2",
+                  "factSheet": {
+                    "id": "9f1d3352-e2d2-4a81-ac3e-b2bcbd253a37",
+                    "type": "BusinessCapability",
+                    "fullName": "Social Media Marketing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "HutSut meshlab"
+        }
+      },
+      {
+        "node": {
+          "id": "c443c92f-d9b1-4f25-8521-ed33e24a344b",
+          "type": "Application",
+          "category": null,
+          "description": "Collaboration for idea and innovation management we use HypeCollab. It can manage user and work groups, different projects, scenarios of projects, stores documentation with definable access rights",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "cf4cd6bc-77ee-40e1-83fa-5c5aa204407b",
+                  "factSheet": {
+                    "id": "1f0064a5-c947-4040-9e40-c27a807536cb",
+                    "type": "BusinessCapability",
+                    "fullName": "Innovation Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "HypeCollab"
+        }
+      },
+      {
+        "node": {
+          "id": "79880ea8-40b0-48fc-af7b-f295d6a81b1f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "1a930340-a7bb-4e0f-b4de-89fc4a11181d",
+                  "factSheet": {
+                    "id": "58aaff75-1649-447c-bdec-01860db7026f",
+                    "type": "BusinessCapability",
+                    "fullName": "Idea Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Idea Club"
+        }
+      },
+      {
+        "node": {
+          "id": "181e7c42-3725-4ed2-94cc-822a3413dc8e",
+          "type": "Application",
+          "category": null,
+          "description": "IdeaIT enables every employee to enter ideas for enhancements or to reduce problems in the Intranet. The administrator can track and monitor all ideas. The integrated workflow supports the assessment and approval process.",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "4ead9890-bb6a-4535-bfc2-719156b1aeef",
+                  "factSheet": {
+                    "id": "58aaff75-1649-447c-bdec-01860db7026f",
+                    "type": "BusinessCapability",
+                    "fullName": "Idea Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "IdeaIT"
+        }
+      },
+      {
+        "node": {
+          "id": "6adca1cb-3d09-456f-a02d-3d9a77d7e36f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "4c967b51-ea1e-4ac5-b4d1-569ee543f786",
+                  "factSheet": {
+                    "id": "58aaff75-1649-447c-bdec-01860db7026f",
+                    "type": "BusinessCapability",
+                    "fullName": "Idea Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Imagine"
+        }
+      },
+      {
+        "node": {
+          "id": "cbde2056-08cf-40e8-a2c8-8f8130ec3994",
+          "type": "Application",
+          "category": null,
+          "description": "Adobe product for designing marketing material",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "75dea496-3f3a-45c0-96c4-61ad4d7f95dd",
+                  "factSheet": {
+                    "id": "258fa168-43b2-49e6-a5c7-f17b4f05fad9",
+                    "type": "BusinessCapability",
+                    "fullName": "Corporate Communications"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "inDesign"
+        }
+      },
+      {
+        "node": {
+          "id": "84056b78-2fcd-4932-9861-7b3f66edaa68",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "069e21d8-3bd7-4ee0-a910-33c771265a05",
+                  "factSheet": {
+                    "id": "ddbc21bf-ddb1-4639-b3fa-5df841e8cd35",
+                    "type": "BusinessCapability",
+                    "fullName": "Audit/Assurance/Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Insight"
+        }
+      },
+      {
+        "node": {
+          "id": "f10d75f9-86f9-4718-829a-cba2c5514497",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "371ae6d9-4c77-482e-ba79-31b0a0ae83ae",
+                  "factSheet": {
+                    "id": "9842fb15-9db0-4da0-8ed9-310a75c8cb48",
+                    "type": "BusinessCapability",
+                    "fullName": "Desktop services & Help desk"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Issue Tracking"
+        }
+      },
+      {
+        "node": {
+          "id": "948a8e2e-db59-484d-a87d-82e583beb885",
+          "type": "Application",
+          "category": null,
+          "description": "you can track and categorize customer complaints, issues and other requests. The system ensures monitoring of activities and reminds the service rep to complete customer related activities in a timely manner",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "75952f15-aaf7-424c-a7bb-d8f50b7596ba",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "issueTrack"
+        }
+      },
+      {
+        "node": {
+          "id": "765e070c-8829-4489-a852-05f10b7fb0a0",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "d28a418f-df98-4c24-9c65-8a2e14ab4d37",
+                  "factSheet": {
+                    "id": "1f0064a5-c947-4040-9e40-c27a807536cb",
+                    "type": "BusinessCapability",
+                    "fullName": "Innovation Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Jenny"
+        }
+      },
+      {
+        "node": {
+          "id": "67295ffd-dda7-4c28-8892-b9a77008fc49",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3eb6b1fc-e837-4674-9287-4bca9b371748",
+                  "factSheet": {
+                    "id": "a89797a2-1561-42f5-9358-3bebdc3614a7",
+                    "type": "BusinessCapability",
+                    "fullName": "Inventory Planning & Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "JIT Reporting"
+        }
+      },
+      {
+        "node": {
+          "id": "6c27902e-3f85-4f1a-af8c-92a4ea9f7a6c",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "f3337162-bd6f-41b6-bf4a-4a3ce1ef7b03",
+                  "factSheet": {
+                    "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
+                    "type": "BusinessCapability",
+                    "fullName": "Recruiting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Jobwatch"
+        }
+      },
+      {
+        "node": {
+          "id": "508144e7-2498-4b5d-9e5a-f04d048ddfa5",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "101c2bc6-f25d-4588-bef6-d2b1e9f5cba9",
+                  "factSheet": {
+                    "id": "bcb62a37-e503-4888-bb06-57745d6f5a56",
+                    "type": "BusinessCapability",
+                    "fullName": "Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Law+"
+        }
+      },
+      {
+        "node": {
+          "id": "78a18461-7330-4af2-a77f-0a1572debfac",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "83f988f7-2ab8-483a-98ae-53bf16d6fb9d",
+                  "factSheet": {
+                    "id": "269846e0-262b-4ff6-8bc2-acc3f1aabbd7",
+                    "type": "BusinessCapability",
+                    "fullName": "Access Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "LDAP"
+        }
+      },
+      {
+        "node": {
+          "id": "5d11a313-8a1c-4636-ad3c-138e883233de",
+          "type": "Application",
+          "category": null,
+          "description": "Management Tool for the management of our IT organization, serves as repository, inventory, reporting system. It is crowdsourcing and swarm intelligence combined at ist best",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "8c814e15-a5aa-4e11-a59c-fac13b307adc",
+                  "factSheet": {
+                    "id": "e5ccc510-28cd-4e7e-9eae-666de3d8fbb3",
+                    "type": "BusinessCapability",
+                    "fullName": "Information Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "leanIX"
+        }
+      },
+      {
+        "node": {
+          "id": "67f73344-079c-4a37-9042-d6617b9dd7b9",
+          "type": "Application",
+          "category": null,
+          "description": "With this tool we get cost reporting about the actual production cost including consumed resources. This app includes benchmark values to compare actual versus planned and best-in-class cost",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "d656a50f-27e0-4e22-8969-10c419571f7a",
+                  "factSheet": {
+                    "id": "645c1d2e-e5a7-45be-b62c-b2e2c2f227da",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Costing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "LeanReport"
+        }
+      },
+      {
+        "node": {
+          "id": "78e4cd84-f4cb-47a0-9451-36e491c0ef26",
+          "type": "Application",
+          "category": null,
+          "description": "Lex Actual provides a database with all actual laws and important legal decisions; it will be automatically updated every 4 weeks with a CD which is shipped to our headquarter",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "910918bf-4921-45a2-980a-85a2f2314d0c",
+                  "factSheet": {
+                    "id": "bcb62a37-e503-4888-bb06-57745d6f5a56",
+                    "type": "BusinessCapability",
+                    "fullName": "Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Lex Actual"
+        }
+      },
+      {
+        "node": {
+          "id": "1a610104-6088-498a-856f-bb6a8298bcd4",
+          "type": "Application",
+          "category": null,
+          "description": "Mailsnake is supporting newsletter mailing for different user groups for after-sales services ... announcing new features, small online training courses, ...",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "b42f5bcd-63e9-4291-934b-996d4fae5163",
+                  "factSheet": {
+                    "id": "0fa743af-e684-4b7f-8bbf-490ab9fe9060",
+                    "type": "BusinessCapability",
+                    "fullName": "After Sales Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Mailsnake"
+        }
+      },
+      {
+        "node": {
+          "id": "9040591f-3e2d-43f9-805d-76d250d5de0d",
+          "type": "Application",
+          "category": null,
+          "description": "This database contains all company related media which can be used in publications and for press material",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "85b952ee-5f83-4165-b46d-837857f6625c",
+                  "factSheet": {
+                    "id": "258fa168-43b2-49e6-a5c7-f17b4f05fad9",
+                    "type": "BusinessCapability",
+                    "fullName": "Corporate Communications"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Media DB"
+        }
+      },
+      {
+        "node": {
+          "id": "c44e4fba-87af-471d-9269-304ad1d7cbd7",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "13715362-8850-42f7-a580-29970d1cb930",
+                  "factSheet": {
+                    "id": "203876be-6ac0-4461-a14c-e2058433fc84",
+                    "type": "BusinessCapability",
+                    "fullName": "Collaboration"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "meshlab Intranet"
+        }
+      },
+      {
+        "node": {
+          "id": "4e7db63e-92ef-4c75-80ce-790af877c3fa",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "328362eb-af9a-4fdc-a9f2-58ff20816dbf",
+                  "factSheet": {
+                    "id": "0df86061-5aef-4d8e-8ff1-ddcdd469f1af",
+                    "type": "BusinessCapability",
+                    "fullName": "Recruiting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Monsta"
+        }
+      },
+      {
+        "node": {
+          "id": "98c52aaa-096a-41c1-bd27-709f2761cf8f",
+          "type": "Application",
+          "category": null,
+          "description": "relevant for all newsletters for personalized marketing ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "38eaa12b-7bca-4bbf-8191-6f59670cb8aa",
+                  "factSheet": {
+                    "id": "b8e2bad7-d128-459d-90fa-ee70f191f851",
+                    "type": "BusinessCapability",
+                    "fullName": "Campaign Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "newschimp"
+        }
+      },
+      {
+        "node": {
+          "id": "727a8827-0cae-42d6-ac8a-bb33da43247f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "7d14a7ae-070a-4e98-ac6a-aa512dbc1c24",
+                  "factSheet": {
+                    "id": "96289f53-c82a-40d8-b76f-02a3616f2cb3",
+                    "type": "BusinessCapability",
+                    "fullName": "Mobile Device Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Odysseus"
+        }
+      },
+      {
+        "node": {
+          "id": "3142ff97-7ddd-4f46-8075-f80d8279ff38",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "19aecd30-0818-4e07-b4e1-11f04af41e18",
+                  "factSheet": {
+                    "id": "833016fa-3401-4089-96e6-f8b08fa142e5",
+                    "type": "BusinessCapability",
+                    "fullName": "Management Reporting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "OLAPCube"
+        }
+      },
+      {
+        "node": {
+          "id": "1d57512e-c783-437c-90bf-a9c6c9e92cbf",
+          "type": "Application",
+          "category": null,
+          "description": "Order Management System",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "0db6e193-9b8a-4c4a-8ef4-02aca39d965d",
+                  "factSheet": {
+                    "id": "f967b340-43ba-4b0e-8a6e-0d5297594c20",
+                    "type": "BusinessCapability",
+                    "fullName": "Opportunity, Order & Sales Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "OMS"
+        }
+      },
+      {
+        "node": {
+          "id": "dc0d5354-510e-42f3-97f0-9c34bde7ae66",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c83ee674-8d41-46e6-8e7e-59e171442a55",
+                  "factSheet": {
+                    "id": "1f0064a5-c947-4040-9e40-c27a807536cb",
+                    "type": "BusinessCapability",
+                    "fullName": "Innovation Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "OpenInno"
+        }
+      },
+      {
+        "node": {
+          "id": "9861d5d0-2c05-41e6-ba68-90766aa57335",
+          "type": "Application",
+          "category": null,
+          "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios. ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "2a9be58b-d43d-4261-b497-256a05050095",
+                  "factSheet": {
+                    "id": "61083836-ddb8-430c-80d4-abfd0d03747b",
+                    "type": "BusinessCapability",
+                    "fullName": "Organisational Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Orgaplan Americas"
+        }
+      },
+      {
+        "node": {
+          "id": "53da2126-fbf2-40ad-806e-aa228b4bedc7",
+          "type": "Application",
+          "category": null,
+          "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios. ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "2e6a30cd-e7c7-456f-807a-f2ffb0b67435",
+                  "factSheet": {
+                    "id": "61083836-ddb8-430c-80d4-abfd0d03747b",
+                    "type": "BusinessCapability",
+                    "fullName": "Organisational Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Orgaplan Asia/Pacific"
+        }
+      },
+      {
+        "node": {
+          "id": "2efa37b5-18aa-48d8-9d70-1328c0d856d7",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": null,
+          "technicalSuitability": null,
+          "RelationToBusinessCapability": {
+            "edges": []
+          },
+          "displayName": "Orgaplan Asia/Pacific / AC Management Cloud"
+        }
+      },
+      {
+        "node": {
+          "id": "f7c360bc-4b4b-423b-9996-813964a9f281",
+          "type": "Application",
+          "category": null,
+          "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios.",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "20586e49-2f9b-41e1-a0ff-eb35722552bc",
+                  "factSheet": {
+                    "id": "61083836-ddb8-430c-80d4-abfd0d03747b",
+                    "type": "BusinessCapability",
+                    "fullName": "Organisational Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Orgaplan Europe"
+        }
+      },
+      {
+        "node": {
+          "id": "6c0d6c85-f105-464a-aac1-547be3bdebfe",
+          "type": "Application",
+          "category": null,
+          "description": "The Orgaviewer presents the current organization as described in Orgaplan in a graphical view which can be zoomed and printed",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c20373c0-11cb-46cd-9948-505573ce1ae9",
+                  "factSheet": {
+                    "id": "61083836-ddb8-430c-80d4-abfd0d03747b",
+                    "type": "BusinessCapability",
+                    "fullName": "Organisational Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Orgaview"
+        }
+      },
+      {
+        "node": {
+          "id": "7adfe54a-b33d-4c3c-a790-958c7467f112",
+          "type": "Application",
+          "category": null,
+          "description": "Contains all parts we are using in the company...this is relevant for product development, production and Warehouse Management",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "a37c3489-5717-4d55-8753-ad2b4e2da843",
+                  "factSheet": {
+                    "id": "ff55f251-afce-4ddd-80d2-49e4c44b1f86",
+                    "type": "BusinessCapability",
+                    "fullName": "Product Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "PartsList"
+        }
+      },
+      {
+        "node": {
+          "id": "2f17a77f-036e-448b-80c6-4873f30b6ed5",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "cbba45fe-f802-415a-afba-22fda65314fe",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Payroll Europe"
+        }
+      },
+      {
+        "node": {
+          "id": "c408569d-b925-44f5-a5b8-48e89f623eb9",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "94c91662-553c-4ea9-8265-721eefb04b85",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Payroll Germany"
+        }
+      },
+      {
+        "node": {
+          "id": "4a29ee5c-56bd-4db9-9360-d065f0f34f23",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "b691fd9c-bb48-4ea3-aa67-0931435ade9d",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Payroll RoW"
+        }
+      },
+      {
+        "node": {
+          "id": "44295c93-d9dd-47a6-9137-2469221993d0",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e3ee88ac-3330-4ea0-871a-9f785fcadd93",
+                  "factSheet": {
+                    "id": "ddbc21bf-ddb1-4639-b3fa-5df841e8cd35",
+                    "type": "BusinessCapability",
+                    "fullName": "Audit/Assurance/Legal"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "QMCheck"
+        }
+      },
+      {
+        "node": {
+          "id": "aef0ef0c-c611-4bef-a63a-65c080e2fb8b",
+          "type": "Application",
+          "category": null,
+          "description": "Research and Development Database with information about latest research initiatives and academic studies as a basis for further development activities",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "93d50e75-410b-4be4-8a0a-5e5ccb0be9dc",
+                  "factSheet": {
+                    "id": "88bd0f41-187b-44d3-a885-fc58fc54cd2c",
+                    "type": "BusinessCapability",
+                    "fullName": "Research"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "RD-DB"
+        }
+      },
+      {
+        "node": {
+          "id": "6353085e-16b1-4762-aea9-2b26fb897b36",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "6e05fbfb-e233-4a68-92a6-58fb8a0e875f",
+                  "factSheet": {
+                    "id": "8d90ddf7-ea87-4722-85bb-9ee8466aa057",
+                    "type": "BusinessCapability",
+                    "fullName": "Real Estate Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "RELAX"
+        }
+      },
+      {
+        "node": {
+          "id": "8e1b9e8e-63cd-41a7-b690-0f4325a77296",
+          "type": "Application",
+          "category": null,
+          "description": "This application collects all revenue which has been produced by the different Bonus Card users and shows trendreports to evaluate the success of the bonus card loyalty program",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "eaf1a49e-3727-46c8-90d0-01d77ec0115e",
+                  "factSheet": {
+                    "id": "1304cef6-ebb2-44ab-9021-d2e405d79274",
+                    "type": "BusinessCapability",
+                    "fullName": "Retention & Loyalty Programs"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Revenue Collector"
+        }
+      },
+      {
+        "node": {
+          "id": "83c70ef0-18ee-4bfd-8a91-d09a2985399e",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e6db264a-847c-4cad-96b8-1fe1eeac65ce",
+                  "factSheet": {
+                    "id": "203876be-6ac0-4461-a14c-e2058433fc84",
+                    "type": "BusinessCapability",
+                    "fullName": "Collaboration"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "RIM"
+        }
+      },
+      {
+        "node": {
+          "id": "b9b13c59-cf09-46a7-a150-478a464cfa38",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "a4628747-2ca3-47b3-866b-42f9ef3190e2",
+                  "factSheet": {
+                    "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211",
+                    "type": "BusinessCapability",
+                    "fullName": "Employee lifecycle Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Salary Compact"
+        }
+      },
+      {
+        "node": {
+          "id": "0355d0b3-e601-4996-8f47-fccfc77e450c",
+          "type": "Application",
+          "category": null,
+          "description": "Customer Relationship Management from salesforce, light because we just use the professional version",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c6076943-8a72-4eda-84e2-70111012533e",
+                  "factSheet": {
+                    "id": "f967b340-43ba-4b0e-8a6e-0d5297594c20",
+                    "type": "BusinessCapability",
+                    "fullName": "Opportunity, Order & Sales Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "salesforce Light"
+        }
+      },
+      {
+        "node": {
+          "id": "875aaf6d-f61d-4f48-81e7-3383ded897bc",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "9aa0b396-81c1-44fe-8405-b3476c93f118",
+                  "factSheet": {
+                    "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0",
+                    "type": "BusinessCapability",
+                    "fullName": "Financial Planning & Forecasting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP BI"
+        }
+      },
+      {
+        "node": {
+          "id": "fc2b0641-6172-40cf-9dbb-10e514c7e341",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e58fda0a-8b56-449a-b0c7-037d37b3f3fa",
+                  "factSheet": {
+                    "id": "79476f43-bde8-49f4-99f5-a7af50aaa5d7",
+                    "type": "BusinessCapability",
+                    "fullName": "Accounting & Billing"
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "356dc3b0-13b3-4fbc-867b-762f278f05b2",
+                  "factSheet": {
+                    "id": "833016fa-3401-4089-96e6-f8b08fa142e5",
+                    "type": "BusinessCapability",
+                    "fullName": "Management Reporting"
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "e042226a-08fb-42f3-b84a-e342779649a3",
+                  "factSheet": {
+                    "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0",
+                    "type": "BusinessCapability",
+                    "fullName": "Financial Planning & Forecasting"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP CO"
+        }
+      },
+      {
+        "node": {
+          "id": "1e12b27d-ea34-4a1c-a04c-d489840288ef",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e5207228-9d95-47aa-b865-7361a7af5f18",
+                  "factSheet": {
+                    "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0",
+                    "type": "BusinessCapability",
+                    "fullName": "Financial Planning & Forecasting"
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "4fcfea33-01f4-4964-b4fa-742ff7189714",
+                  "factSheet": {
+                    "id": "79476f43-bde8-49f4-99f5-a7af50aaa5d7",
+                    "type": "BusinessCapability",
+                    "fullName": "Accounting & Billing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP FI"
+        }
+      },
+      {
+        "node": {
+          "id": "a3934b25-387a-49af-a8ea-a3ec2c4cd872",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "1283d6fa-ff74-4766-b96f-c884e5b10416",
+                  "factSheet": {
+                    "id": "a7a021c3-796a-4ac6-a4c9-6b4de589d393",
+                    "type": "BusinessCapability",
+                    "fullName": "Treasury"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP FSCM"
+        }
+      },
+      {
+        "node": {
+          "id": "b8221f32-f846-4058-86e4-2e6b6acfaad9",
+          "type": "Application",
+          "category": null,
+          "description": "SAP Materials Management System. Inventory, Materials, Parts",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "0ec597c1-2d56-4aa3-be6d-d9ede475e804",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP MM"
+        }
+      },
+      {
+        "node": {
+          "id": "716b9d27-3df7-42ca-ae6e-e2ef788064dd",
+          "type": "Application",
+          "category": null,
+          "description": "SAP Supply Chain Management handles everything with regards to our supply chain, from planning, coordination with our supplier and customer. It is fully integrated with our Warehouse Management",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "5880af22-6ce3-4e52-8762-c38f00458348",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SAP SCM"
+        }
+      },
+      {
+        "node": {
+          "id": "bed438b9-f76d-4942-958f-a24d2cb471cb",
+          "type": "Application",
+          "category": null,
+          "description": "This is for production planning and managing in the Asia production factory",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "dae58605-e9e6-4758-a4d5-c8c1db6562bc",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Schedule & Track"
+        }
+      },
+      {
+        "node": {
+          "id": "e9d4d782-de57-4419-a27c-03f1e395f3ab",
+          "type": "Application",
+          "category": null,
+          "description": "Online Chat Tool for real-time and online support desk operation at our web products",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3114c053-c9bc-45b0-9266-96e1384325f9",
+                  "factSheet": {
+                    "id": "0b8af9fd-75db-4227-835e-264b2068bcae",
+                    "type": "BusinessCapability",
+                    "fullName": "Customer Service"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "serviceEngage"
+        }
+      },
+      {
+        "node": {
+          "id": "df381add-191a-40e8-aff4-660935b74bac",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bfb8c0ac-da6b-496d-a616-cdc9e5c0551b",
+                  "factSheet": {
+                    "id": "e5ccc510-28cd-4e7e-9eae-666de3d8fbb3",
+                    "type": "BusinessCapability",
+                    "fullName": "Information Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SLA Tracking"
+        }
+      },
+      {
+        "node": {
+          "id": "0d140d63-d0ab-4cc3-a95f-172c4645a816",
+          "type": "Application",
+          "category": null,
+          "description": "statistical and analysis software for monitoring and analyzing the data from the production process",
+          "businessCriticality": "better",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "d95faa65-e61d-496a-95d1-39380d989632",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SPSS"
+        }
+      },
+      {
+        "node": {
+          "id": "2c39107a-51a0-4bce-a539-d59bdbca2c0f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "unreasonable",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "e496cbf9-0d82-4c86-959f-2a8b16e4172b",
+                  "factSheet": {
+                    "id": "a89797a2-1561-42f5-9358-3bebdc3614a7",
+                    "type": "BusinessCapability",
+                    "fullName": "Inventory Planning & Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Stocky"
+        }
+      },
+      {
+        "node": {
+          "id": "ac6d7dcb-0d8c-498e-9155-cc67b0515b3d",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "67cad152-8cff-403a-8f29-56ba5287dc6e",
+                  "factSheet": {
+                    "id": "a89797a2-1561-42f5-9358-3bebdc3614a7",
+                    "type": "BusinessCapability",
+                    "fullName": "Inventory Planning & Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Supplier Tracking Germany"
+        }
+      },
+      {
+        "node": {
+          "id": "08de9e1e-7a19-4d65-b1f5-3234280b1804",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "34a48821-6cfa-414c-841e-2419b4100340",
+                  "factSheet": {
+                    "id": "a89797a2-1561-42f5-9358-3bebdc3614a7",
+                    "type": "BusinessCapability",
+                    "fullName": "Inventory Planning & Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Supplier Tracking Poland"
+        }
+      },
+      {
+        "node": {
+          "id": "5c4cb3d9-d215-4adc-9db1-d209de57317a",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "42b96b6b-e368-4a3b-a4a4-a44c0076ff35",
+                  "factSheet": {
+                    "id": "a89797a2-1561-42f5-9358-3bebdc3614a7",
+                    "type": "BusinessCapability",
+                    "fullName": "Inventory Planning & Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Supplier Tracking USA"
+        }
+      },
+      {
+        "node": {
+          "id": "30dc4257-9395-46ce-a2ad-b7a582f58de6",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "a519d425-0ef3-4fc9-8f90-fb1bd26fd37d",
+                  "factSheet": {
+                    "id": "7b2c4358-3245-4648-8b98-fc0caa6b990b",
+                    "type": "BusinessCapability",
+                    "fullName": "Purchasing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "SuppList"
+        }
+      },
+      {
+        "node": {
+          "id": "0f535fd8-5ef6-42b1-85dd-b87ebd19224c",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "best",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "fullyAppropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "685c76f6-565f-4ac9-bf05-baa4afb7eb14",
+                  "factSheet": {
+                    "id": "0a2a8510-40de-450b-b4ad-ee6efa6dbefc",
+                    "type": "BusinessCapability",
+                    "fullName": "Attendance Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Time Track"
+        }
+      },
+      {
+        "node": {
+          "id": "a97d05c9-6695-443e-9f83-42eab141d07f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "inappropriate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "65a6a61e-d6e6-43ec-947d-d13b540df565",
+                  "factSheet": {
+                    "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
+                    "type": "BusinessCapability",
+                    "fullName": "Training & Skills Enhancements"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Training Management"
+        }
+      },
+      {
+        "node": {
+          "id": "ddcc0f4b-a1f8-48c1-994d-1e80d7f746ee",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "09b55fc8-b7b4-45e7-b182-83de3f5f44ee",
+                  "factSheet": {
+                    "id": "ef6a07b8-c252-4054-acb3-a710ec82c637",
+                    "type": "BusinessCapability",
+                    "fullName": "Training & Skills Enhancements"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Training Plan"
+        }
+      },
+      {
+        "node": {
+          "id": "99ec9dd3-5f11-4556-9d2b-8efb4af92f7a",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "46ec81d4-688d-42c9-b9f1-5b73f10ab6da",
+                  "factSheet": {
+                    "id": "f4120e92-4517-4f2f-8b75-cf3efddf7b82",
+                    "type": "BusinessCapability",
+                    "fullName": "Distribution Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Transport Timestamp"
+        }
+      },
+      {
+        "node": {
+          "id": "0550e21b-7b97-40a3-baf1-cffac190b5b5",
+          "type": "Application",
+          "category": null,
+          "description": "TUPPAS supports the management of production in USA, scheduling, reporting, inventory, TQM, ...",
+          "businessCriticality": "worst",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "f3aae6d3-53a4-4fce-95e5-9a00bd952a26",
+                  "factSheet": {
+                    "id": "ca869a5b-6c2e-4887-94df-6eb33138d490",
+                    "type": "BusinessCapability",
+                    "fullName": "Production Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "TUPPAS"
+        }
+      },
+      {
+        "node": {
+          "id": "83869127-6099-4e66-9a93-1f720f86d2e1",
+          "type": "Application",
+          "category": null,
+          "description": "You do not know twitter? It is from birdie",
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "5bff4af4-bac4-45f5-8a25-36f5a95e9437",
+                  "factSheet": {
+                    "id": "9f1d3352-e2d2-4a81-ac3e-b2bcbd253a37",
+                    "type": "BusinessCapability",
+                    "fullName": "Social Media Marketing"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "twitter"
+        }
+      },
+      {
+        "node": {
+          "id": "d1080953-0051-49d9-972b-4a9addf0b321",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "0cd15632-d0b9-4fa8-aaa4-c0f254c99cef",
+                  "factSheet": {
+                    "id": "b5e0fc18-bef0-414d-a38a-3409a2f8c01f",
+                    "type": "BusinessCapability",
+                    "fullName": "Fleet Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Ultimo"
+        }
+      },
+      {
+        "node": {
+          "id": "ad945f33-d5e7-4a5b-a5b4-ef9be316a59f",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "worst",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "1b27d6eb-3d33-49af-80bc-5ec0e65c1811",
+                  "factSheet": {
+                    "id": "203876be-6ac0-4461-a14c-e2058433fc84",
+                    "type": "BusinessCapability",
+                    "fullName": "Collaboration"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "Video Conference"
+        }
+      },
+      {
+        "node": {
+          "id": "f68e52d5-8133-483c-8465-06fcc34a38d6",
+          "type": "Application",
+          "category": null,
+          "description": null,
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "perfect",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "3b348b8f-9eab-430b-8a82-42ab11615858",
+                  "factSheet": {
+                    "id": "269846e0-262b-4ff6-8bc2-acc3f1aabbd7",
+                    "type": "BusinessCapability",
+                    "fullName": "Access Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "VPN"
+        }
+      },
+      {
+        "node": {
+          "id": "dec8a3f7-f291-4075-8fb2-4221c6ed140b",
+          "type": "Application",
+          "category": null,
+          "description": "With WebTime every Employee with an Intranet Access can edit their working time on a daily basis",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "unreasonable",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "86e607e7-990f-457d-a2f0-0164455dbc16",
+                  "factSheet": {
+                    "id": "3615c0bf-d16a-41b0-89f6-076936af8acd",
+                    "type": "BusinessCapability",
+                    "fullName": "Workforce Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "WebTime"
+        }
+      },
+      {
+        "node": {
+          "id": "4584a892-f133-4cdd-94a6-2b6854b84de3",
+          "type": "Application",
+          "category": null,
+          "description": "WMS large is a warehouse management system used in medium and large countries. It was purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management. Cycle Counting to manage inventory cycle counts. ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "b2a79fe7-ea39-4759-a815-12b469f387d6",
+                  "factSheet": {
+                    "id": "3aa61ccf-636c-4409-b240-4ba774aae456",
+                    "type": "BusinessCapability",
+                    "fullName": "Warehouse Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "WMS large"
+        }
+      },
+      {
+        "node": {
+          "id": "f23a2dac-f2c8-4289-9635-d8c1accc355c",
+          "type": "Application",
+          "category": null,
+          "description": "WMS light is a warehouse management system used in smaller countries. It was purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management. Cycle Counting to manage inventory cycle counts. ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "appropriate",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "c800000f-76a1-42cb-9b43-b6be194f4285",
+                  "factSheet": {
+                    "id": "3aa61ccf-636c-4409-b240-4ba774aae456",
+                    "type": "BusinessCapability",
+                    "fullName": "Warehouse Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "WMS light"
+        }
+      },
+      {
+        "node": {
+          "id": "bd51b347-54f8-4101-9f9a-d18eceb9f121",
+          "type": "Application",
+          "category": null,
+          "description": "WMS is a warehouse management system used in special situations. It is based on the software we purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management.  ",
+          "businessCriticality": "belowaverage",
+          "functionalSuitability": "insufficient",
+          "technicalSuitability": "adequate",
+          "RelationToBusinessCapability": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bacf66d0-e366-4f75-afff-cb445e3d8f79",
+                  "factSheet": {
+                    "id": "3aa61ccf-636c-4409-b240-4ba774aae456",
+                    "type": "BusinessCapability",
+                    "fullName": "Warehouse Management"
+                  }
+                }
+              }
+            ]
+          },
+          "displayName": "WMS special"
+        }
+      }
+    ]
+  }
+}
