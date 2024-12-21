@@ -1,23 +1,38 @@
 {
     "data": {
         "current": {
-            "totalCount": 110,
+            "totalCount": 157,
             "pageInfo": {
                 "hasNextPage": false,
                 "hasPreviousPage": false,
-                "startCursor": "eyJ1c2VySWQiOiIyYjE5ZGY5ZC0yZmZjLTRkMmQtODViZi1lMTFlMzU2M2I2NzkiLCJ3b3Jrc3BhY2VJZCI6Ijk1M2NkOTQ5LTZjMGItNDQ0Zi05OGQyLTQ2NGY5ZjJkN2JiZiIsImtleSI6IjAwOTI5ZDFjLWQ5NzYtNGVlOC1hNmNmLTcyNzI4YjU5YzE3NyIsImVsZW1lbnQiOjB9",
-                "endCursor": "eyJ1c2VySWQiOiIyYjE5ZGY5ZC0yZmZjLTRkMmQtODViZi1lMTFlMzU2M2I2NzkiLCJ3b3Jrc3BhY2VJZCI6Ijk1M2NkOTQ5LTZjMGItNDQ0Zi05OGQyLTQ2NGY5ZjJkN2JiZiIsImtleSI6IjAwOTI5ZDFjLWQ5NzYtNGVlOC1hNmNmLTcyNzI4YjU5YzE3NyIsImVsZW1lbnQiOjEwOX0="
+                "startCursor": "eyJ1c2VySWQiOiIyYjE5ZGY5ZC0yZmZjLTRkMmQtODViZi1lMTFlMzU2M2I2NzkiLCJ3b3Jrc3BhY2VJZCI6IjJiZGUyNjg4LTA2NzctNDdjZS04MmQ4LTk4Yjc3MzU3NGFmZSIsImtleSI6ImZiMzJlNmE4LTY1YmItNDgyZi1iMzk0LWE3ZDRiYmIzMjczMSIsImVsZW1lbnQiOjB9",
+                "endCursor": "eyJ1c2VySWQiOiIyYjE5ZGY5ZC0yZmZjLTRkMmQtODViZi1lMTFlMzU2M2I2NzkiLCJ3b3Jrc3BhY2VJZCI6IjJiZGUyNjg4LTA2NzctNDdjZS04MmQ4LTk4Yjc3MzU3NGFmZSIsImtleSI6ImZiMzJlNmE4LTY1YmItNDgyZi1iMzk0LWE3ZDRiYmIzMjczMSIsImVsZW1lbnQiOjE1Nn0="
             },
             "edges": [
+                {
+                    "node": {
+                        "id": "4bb1ace0-8d99-4aed-b54b-36ee5ff0c052",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Absorb LMS is a learning management system that manages, delivers, and tracks online and instructor led training events.",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Absorb Software"
+                    }
+                },
                 {
                     "node": {
                         "id": "28fe4aa2-6e46-41a1-a131-72afb3acf256",
                         "type": "Application",
                         "category": null,
                         "description": "Assessment Center Management supports all major functions for planning, organizing and managing our assessment center. This is usable for external and internal applicants.",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "perfect",
-                        "technicalSuitability": "inappropriate",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -30,9 +45,17 @@
                                 },
                                 {
                                     "node": {
-                                        "id": "cac94265-7703-463f-b8c3-7aff158a4afb",
+                                        "id": "cee17b06-1e89-4b36-964b-ce2a1057f9a7",
                                         "factSheet": {
-                                            "id": "9aa297ff-4177-47f5-8ccf-b3b67a73d63b"
+                                            "id": "ef6a07b8-c252-4054-acb3-a710ec82c637"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "2a2425ee-36d4-4767-98a5-4b77894c8ce9",
+                                        "factSheet": {
+                                            "id": "3615c0bf-d16a-41b0-89f6-076936af8acd"
                                         }
                                     }
                                 }
@@ -43,23 +66,201 @@
                 },
                 {
                     "node": {
-                        "id": "91a18208-aade-4a64-ae58-11a6a307a26e",
+                        "id": "2efa37b5-18aa-48d8-9d70-1328c0d856d7",
                         "type": "Application",
                         "category": null,
-                        "description": "AttorneyNet is an inventory of all lawyers around the world we are working together.",
-                        "businessCriticality": "best",
-                        "functionalSuitability": "perfect",
+                        "description": null,
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "AC Management Cloud"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "cbde2056-08cf-40e8-a2c8-8f8130ec3994",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Adobe InDesign is a desktop publishing software application. It is a layout and page design software for print and digital media. It can be used to create works such as posters, flyers, brochures, magazines, newspapers, presentations, books, and ebooks.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
                                     "node": {
-                                        "id": "33c1fbfc-c8a8-437b-bb7e-25dd42d75043",
+                                        "id": "75dea496-3f3a-45c0-96c4-61ad4d7f95dd",
                                         "factSheet": {
-                                            "id": "5634544d-4cd3-4533-b190-3f947a99e752"
+                                            "id": "258fa168-43b2-49e6-a5c7-f17b4f05fad9"
                                         }
                                     }
-                                },
+                                }
+                            ]
+                        },
+                        "displayName": "Adobe InDesign"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "9137784b-0baf-4bee-a5a9-1abb779d86bb",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Aircall is the cloud-based call center and phone system of choice for modern businesses. It is a voice platform that integrates seamlessly with productivity and helpdesk tools.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Aircall"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "dc91cb77-6cb8-4271-8fa9-d036f879ebfc",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Amazon Music is a music streaming platform and online music store operated by Amazon.",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "4484096a-5ef8-4d8f-b46f-309402561abd",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Amazon Music"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "7cc3fe1a-4818-44c4-b008-71ad15da10ac",
+                        "type": "Application",
+                        "category": null,
+                        "description": "A Python distribution for data science. Includes Spyder IDE and Jupyter Notebook.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "d936b061-05e5-4b17-a181-0d3939cca50f",
+                                        "factSheet": {
+                                            "id": "bc758480-3fe2-4123-ba42-870a629fd728"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Anaconda"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "2ed85515-e2ee-48b8-8a05-e72b2cb7ec15",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Analytics Application"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "b488d9c5-2245-4731-b454-1865984db628",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Analytics Application / Analytics App"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "c02b2fc1-bfdd-4719-acbf-0da7142c8165",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Analytics Application / Collaboration App"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "b48ab400-5989-4f28-b123-51e892d9a032",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Application (AIX/Websphere)"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "2d203e10-29aa-46a4-8d35-b12ddec85bd2",
+                        "type": "Application",
+                        "category": null,
+                        "description": "ARGOS provides deep Azure Cloud Compliance & Security assessments.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "3d265502-4ca7-4597-8d60-55385b178924",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "ARGOS"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "91a18208-aade-4a64-ae58-11a6a307a26e",
+                        "type": "Application",
+                        "category": null,
+                        "description": "AttorneyNet is an inventory of all lawyers around the world we are working together.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
                                 {
                                     "node": {
                                         "id": "88f6c0a8-474c-4a04-974b-8f6145f14413",
@@ -79,7 +280,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "To perform Audit projects audimex is the companion for managing all aspects of such projects, COBIT compliant.",
-                        "businessCriticality": "best",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -103,7 +304,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "In Development and construction we use AutoCAD as the CAD program. It is connected with everything to ensure most effective and efficient use.",
-                        "businessCriticality": "best",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -123,13 +324,37 @@
                 },
                 {
                     "node": {
+                        "id": "7ec54f8c-5e6f-409e-a842-8e5360219552",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Azure Data Studio is a cross-platform database tool for data professionals using on-premises and cloud data platforms on Windows, macOS, and Linux.",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "de8c7e72-5976-486c-bb23-dec80ba794dd",
+                                        "factSheet": {
+                                            "id": "bc758480-3fe2-4123-ba42-870a629fd728"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Azure Data Studio"
+                    }
+                },
+                {
+                    "node": {
                         "id": "daddde61-1f50-4ab1-bbfd-36f0a5329988",
                         "type": "Application",
                         "category": null,
                         "description": "This is the special version for Americas to increase customer loyalty",
-                        "businessCriticality": "best",
-                        "functionalSuitability": "perfect",
-                        "technicalSuitability": "unreasonable",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -151,8 +376,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "Due to different requirements in the regions for each region a dedicated bonus program exist, this is for Asia/Pacific",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -175,7 +400,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Due to different requirements in the regions for each region a dedicated bonus program exist, this is for Europe",
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -199,7 +424,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "With this application the use of the bonus card per customer is tracked",
-                        "businessCriticality": "better",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -223,20 +448,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "Business Process Management",
-                        "businessCriticality": "better",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "e1c856ad-d5e9-47f4-b132-ad8241ff9707",
-                                        "factSheet": {
-                                            "id": "f4120e92-4517-4f2f-8b75-cf3efddf7b82"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "BPM"
                     }
@@ -247,7 +463,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "brand maker is a marketing resource management tool and covers functions such as marketing planning and reporting",
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -271,9 +487,9 @@
                         "type": "Application",
                         "category": null,
                         "description": "Bring your own device (BYOD) is the directory of all private devices with access to our infratsructure",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
-                        "technicalSuitability": "fullyAppropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -295,7 +511,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "For the management of a call center this application is totally crucial. You can manage working schedule, call routing, customer information, and so on",
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -319,8 +535,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "For the management of a call center this application is totally crucial. You can manage working schedule, call routing, customer information, and so on",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "perfect",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -339,12 +555,36 @@
                 },
                 {
                     "node": {
+                        "id": "16f038c5-6b7b-4d73-b412-07baa8ec8d92",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Reinventing Process Automation for the Digital Enterprise\nOur process automation platform enables tens of thousands of developers to design, automate and improve processes and provide better customer experiences, deliver projects faster and increase business agility.\n\nreview/create/change BPMN process models as described here: https://camunda-westeurope-prod.leanix.net/docs/#modeler.\n",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "a51b61c3-6acf-4ec5-b2b3-36439c1cfde2",
+                                        "factSheet": {
+                                            "id": "bc758480-3fe2-4123-ba42-870a629fd728"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Camunda Modeler"
+                    }
+                },
+                {
+                    "node": {
                         "id": "2311437f-0ce0-49b5-ba32-e2dae8a52659",
                         "type": "Application",
                         "category": null,
                         "description": "With this application you can plan and track the production capacity. This app includes also reports for historical comparison",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -367,8 +607,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "Corporate Idendity Information Database containing all rules and examples for design of corporate materials",
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -391,8 +631,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "Corporate information system ",
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "insufficient",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "unreasonable",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -403,6 +643,14 @@
                                             "id": "833016fa-3401-4089-96e6-f8b08fa142e5"
                                         }
                                     }
+                                },
+                                {
+                                    "node": {
+                                        "id": "9aba2483-dc0c-44eb-9073-3314128d2b0c",
+                                        "factSheet": {
+                                            "id": "3282630b-0c78-48ab-b02a-9307ccf8ff49"
+                                        }
+                                    }
                                 }
                             ]
                         },
@@ -411,12 +659,36 @@
                 },
                 {
                     "node": {
+                        "id": "d6187556-dd65-43af-ab3d-25cf28cdf500",
+                        "type": "Application",
+                        "category": null,
+                        "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "6df7ad40-9ec2-44d5-a988-573fbf81c667",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "ClamAV"
+                    }
+                },
+                {
+                    "node": {
                         "id": "2d912343-92ff-45a9-8ef3-a5a56264af97",
                         "type": "Application",
                         "category": null,
                         "description": "Chart of Accounts",
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -439,7 +711,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "worst",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -463,8 +735,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "Cost Modelling is the tool to better manage production cost. It lets you define cost driver, assign cost values and adjust quantity per cost driver. ",
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -487,7 +759,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Customer Feedback Analysis Tool for Americas",
-                        "businessCriticality": "worst",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -511,7 +783,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Customer Feedback Analysis Tool for Asia and Pacific",
-                        "businessCriticality": "worst",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -535,7 +807,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Customer Feedback Analysis Tool for Europe",
-                        "businessCriticality": "worst",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -559,9 +831,9 @@
                         "type": "Application",
                         "category": null,
                         "description": "Next Generation Customer Feedback Analysis Tool",
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "appropriate",
-                        "technicalSuitability": "inappropriate",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -579,12 +851,42 @@
                 },
                 {
                     "node": {
+                        "id": "5f45b5b8-f6b4-4987-98b7-12317d9bdea0",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Customer Portal"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "7b52d884-f182-4283-83fd-17e76834763c",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Data Warehouse"
+                    }
+                },
+                {
+                    "node": {
                         "id": "1cee5ffa-c4da-4fa0-a856-60e506188114",
                         "type": "Application",
                         "category": null,
                         "description": "Document Management system which stores all technical drawings, contracts, orders, invoices, ... with the intelligent index and search mechanism all documents can be found easily",
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "insufficient",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "appropriate",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -607,20 +909,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "Employee Appraisals are managed with EmpAppraise, preparation and workflow is supported.",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "ae9031e1-3a65-49cf-9f50-cb1aaec76f60",
-                                        "factSheet": {
-                                            "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "EmpAppraise"
                     }
@@ -631,7 +924,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "This is our internal tool for organizing all request for materials",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -655,7 +948,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Event Planner Application for planning external and internal events",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -679,7 +972,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "This tool contains all relevant activities for every planned change with regards to the strategy",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -703,7 +996,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Mail Management",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -723,12 +1016,27 @@
                 },
                 {
                     "node": {
+                        "id": "278ea8fe-0324-4b5e-aed2-0d6532e34bba",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Execel"
+                    }
+                },
+                {
+                    "node": {
                         "id": "14a29d03-e96e-4bb7-8ac7-24c168b44fbf",
                         "type": "Application",
                         "category": null,
                         "description": "Executives are tracked with ExecuTrack",
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "insufficient",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -751,8 +1059,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "faceLift is the provider for different facebook apps and the fan Activator\n",
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "perfect",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -775,9 +1083,9 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "perfect",
-                        "technicalSuitability": "inappropriate",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "unreasonable",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -795,17 +1103,26 @@
                 },
                 {
                     "node": {
-                        "id": "bf34be7b-c990-4a79-8fec-733fe79402f4",
+                        "id": "093b8aaf-f4db-4fbf-a464-31d6bb266b2f",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "worst",
-                        "functionalSuitability": "unreasonable",
-                        "technicalSuitability": "inappropriate",
+                        "description": "Geckoboard is Business Intelligence Software for aggregating, visualising and sharing the key data that drives the business.",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": []
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "87b3f2ef-d720-4b03-a7d5-3f4da716a17c",
+                                        "factSheet": {
+                                            "id": "3de4562a-0634-4374-913c-5c58b964fe59"
+                                        }
+                                    }
+                                }
+                            ]
                         },
-                        "displayName": "Friday.com"
+                        "displayName": "Geckoboard"
                     }
                 },
                 {
@@ -814,7 +1131,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "With this application you can plan and track the production capacity. This app includes also reports for historical comparison",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -838,7 +1155,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "We use Google to support our research efforts with public available information and trends from the internet",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -861,8 +1178,8 @@
                         "id": "3ab27ef5-c433-4777-8890-a011bd3186f3",
                         "type": "Application",
                         "category": null,
-                        "description": "Google Analytics enables us to better understand the usage from our websites by providing a lot of information and analyzing capabilities\n",
-                        "businessCriticality": "belowaverage",
+                        "description": "Google Analytics 360 Suite is a data management platform providing analytical data which can be used to track ROI and marketing indicators.",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -877,7 +1194,46 @@
                                 }
                             ]
                         },
-                        "displayName": "Google Analytics"
+                        "displayName": "Google Analytics 360"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "c41293ad-1a38-4bb7-9e6b-bd36120e17fb",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "e11fa342-48b9-4b18-a76e-79ba3976c4c1",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Google Cloud Platform"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "e0a35a50-4776-49ee-b94f-f14fbba7e5a0",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Google Workspace is a suite of web applications including Gmail, Google Drive, Google Hangouts, Google Calendar, and Google Doc.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Google Workspace"
                     }
                 },
                 {
@@ -886,7 +1242,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Governance Reporting for all corporate wide processes, SOX-Compliance, and so on",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -906,13 +1262,37 @@
                 },
                 {
                     "node": {
+                        "id": "ed524358-6656-4102-865c-7fd468489fc5",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Grafana is a dashboard tool for visualizing time series data. It is the open source analytics & monitoring solution for every database. It provides charts, graphs, and alerts for the web when connected to supported data sources.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "84f54991-8164-4f11-bb76-7e3a595114a1",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Grafana"
+                    }
+                },
+                {
+                    "node": {
                         "id": "28d2601b-8048-49aa-854e-79cc50f48f37",
                         "type": "Application",
                         "category": null,
                         "description": "With HP Service Desk we manage all service tickets and the service desk management",
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "appropriate",
-                        "technicalSuitability": "adequate",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "unreasonable",
+                        "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -934,20 +1314,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "HR Admin supports the whole lifecycle of an employee, data management of all employee information, administration, payroll preparation, absence management",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "8c0f839e-1c4f-4e91-8916-0f3103214782",
-                                        "factSheet": {
-                                            "id": "977b2f4b-ff5b-46c2-b848-2d2aee596211"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "HR Admin"
                     }
@@ -958,20 +1329,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "HR Plan plans the development of our workforce, from a qualitative and quantitative aspect",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "afbe9e66-3cf5-4c72-8735-5a977479e43b",
-                                        "factSheet": {
-                                            "id": "3615c0bf-d16a-41b0-89f6-076936af8acd"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "HR Plan"
                     }
@@ -982,7 +1344,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Social Media Management Dashboard evaluating the impact of the company social media activities",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1006,20 +1368,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "Collaboration for idea and innovation management we use HypeCollab. It can manage user and work groups, different projects, scenarios of projects, stores documentation with definable access rights",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
-                        "technicalSuitability": "fullyAppropriate",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "cf4cd6bc-77ee-40e1-83fa-5c5aa204407b",
-                                        "factSheet": {
-                                            "id": "1f0064a5-c947-4040-9e40-c27a807536cb"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "HypeCollab"
                     }
@@ -1030,20 +1383,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "1a930340-a7bb-4e0f-b4de-89fc4a11181d",
-                                        "factSheet": {
-                                            "id": "58aaff75-1649-447c-bdec-01860db7026f"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Idea Club"
                     }
@@ -1054,20 +1398,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "IdeaIT enables every employee to enter ideas for enhancements or to reduce problems in the Intranet. The administrator can track and monitor all ideas. The integrated workflow supports the assessment and approval process.",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "4ead9890-bb6a-4535-bfc2-719156b1aeef",
-                                        "factSheet": {
-                                            "id": "58aaff75-1649-447c-bdec-01860db7026f"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "IdeaIT"
                     }
@@ -1078,46 +1413,13 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "4c967b51-ea1e-4ac5-b4d1-569ee543f786",
-                                        "factSheet": {
-                                            "id": "58aaff75-1649-447c-bdec-01860db7026f"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Imagine"
-                    }
-                },
-                {
-                    "node": {
-                        "id": "cbde2056-08cf-40e8-a2c8-8f8130ec3994",
-                        "type": "Application",
-                        "category": null,
-                        "description": "Adobe product for designing marketing material",
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": "unreasonable",
-                        "technicalSuitability": "inappropriate",
-                        "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "75dea496-3f3a-45c0-96c4-61ad4d7f95dd",
-                                        "factSheet": {
-                                            "id": "258fa168-43b2-49e6-a5c7-f17b4f05fad9"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        "displayName": "inDesign"
                     }
                 },
                 {
@@ -1125,8 +1427,8 @@
                         "id": "84056b78-2fcd-4932-9861-7b3f66edaa68",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "belowaverage",
+                        "description": "Insight is a provider of computer hardware, software, cloud solutions and IT services to business, government, education and healthcare clients.",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1138,6 +1440,22 @@
                                             "id": "ddbc21bf-ddb1-4639-b3fa-5df841e8cd35"
                                         }
                                     }
+                                },
+                                {
+                                    "node": {
+                                        "id": "7bab957a-246d-44b5-b129-b2a15c78c161",
+                                        "factSheet": {
+                                            "id": "833016fa-3401-4089-96e6-f8b08fa142e5"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "c8f4ac34-8c23-481a-9d72-786ae435d268",
+                                        "factSheet": {
+                                            "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0"
+                                        }
+                                    }
                                 }
                             ]
                         },
@@ -1146,11 +1464,35 @@
                 },
                 {
                     "node": {
+                        "id": "f673c6c4-832d-47a2-a328-6bb8b6e90fbe",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Instana provides APM solution that automatically monitors dynamic modern applications.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "2a36a84b-9e81-404e-9533-4b9abd00f29f",
+                                        "factSheet": {
+                                            "id": "23012d95-e02d-4ad0-92d3-e9c81a6fe062"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Instana"
+                    }
+                },
+                {
+                    "node": {
                         "id": "f10d75f9-86f9-4718-829a-cba2c5514497",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1174,7 +1516,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "you can track and categorize customer complaints, issues and other requests. The system ensures monitoring of activities and reminds the service rep to complete customer related activities in a timely manner",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1194,24 +1536,30 @@
                 },
                 {
                     "node": {
+                        "id": "6d35807e-fbe6-498f-bcf3-a0e6216b5b0c",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "JAS TIME 1"
+                    }
+                },
+                {
+                    "node": {
                         "id": "765e070c-8829-4489-a852-05f10b7fb0a0",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "d28a418f-df98-4c24-9c65-8a2e14ab4d37",
-                                        "factSheet": {
-                                            "id": "1f0064a5-c947-4040-9e40-c27a807536cb"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Jenny"
                     }
@@ -1222,20 +1570,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "3eb6b1fc-e837-4674-9287-4bca9b371748",
-                                        "factSheet": {
-                                            "id": "a89797a2-1561-42f5-9358-3bebdc3614a7"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "JIT Reporting"
                     }
@@ -1246,7 +1585,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1270,7 +1609,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1294,7 +1633,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1317,8 +1656,8 @@
                         "id": "5d11a313-8a1c-4636-ad3c-138e883233de",
                         "type": "Application",
                         "category": null,
-                        "description": "Management Tool for the management of our IT organization, serves as repository, inventory, reporting system. It is crowdsourcing and swarm intelligence combined at ist best",
-                        "businessCriticality": "belowaverage",
+                        "description": "LeanIX provides solutions for Enterprise Architecture and multi-cloud environments.",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1333,7 +1672,22 @@
                                 }
                             ]
                         },
-                        "displayName": "leanIX"
+                        "displayName": "LeanIX"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "49f0b697-057a-41c7-a189-2c573720f24d",
+                        "type": "Application",
+                        "category": null,
+                        "description": "LeanIX SMP helps users optimize the cost and productivity of their SaaS subscriptions. LeanIX SMP offers integrations with all leading financial, contract management, and Single Sign-On systems which help users to quickly and continuously discover applications, providing visibility into the organization’s SaaS ecosystem. Users can track and optimize SaaS usage for key applications using LeanIX SMP.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "LeanIX SMP"
                     }
                 },
                 {
@@ -1342,7 +1696,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "With this tool we get cost reporting about the actual production cost including consumed resources. This app includes benchmark values to compare actual versus planned and best-in-class cost",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1366,9 +1720,9 @@
                         "type": "Application",
                         "category": null,
                         "description": "Lex Actual provides a database with all actual laws and important legal decisions; it will be automatically updated every 4 weeks with a CD which is shipped to our headquarter",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
-                        "technicalSuitability": "inappropriate",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -1386,11 +1740,74 @@
                 },
                 {
                     "node": {
+                        "id": "1145f59e-80fa-4d09-89c8-1355aeb60d80",
+                        "type": "Application",
+                        "category": null,
+                        "description": "LoyaltyLion is a Demand Generation Software for customer loyalty and engagement platform, powering growth and retention through data-driven loyalty programs.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "LoyaltyLion"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "817de8bc-6647-4363-8932-a219b6e52414",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Mailgun is a set of APIs to send, receive, and track email in your websites and apps.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "ba6a5186-98c4-4c88-ac32-fae5b30d313d",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Mailgun"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "c73d0d01-305c-408b-82b7-00a8f9c74a01",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Mailjet is a real-time cloud emailing platform that allows users to track and monitor sent emails.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "d8964626-d269-4b53-958b-84fbb86c40f0",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Mailjet"
+                    }
+                },
+                {
+                    "node": {
                         "id": "1a610104-6088-498a-856f-bb6a8298bcd4",
                         "type": "Application",
                         "category": null,
                         "description": "Mailsnake is supporting newsletter mailing for different user groups for after-sales services ... announcing new features, small online training courses, ...",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1400,6 +1817,14 @@
                                         "id": "b42f5bcd-63e9-4291-934b-996d4fae5163",
                                         "factSheet": {
                                             "id": "0fa743af-e684-4b7f-8bbf-490ab9fe9060"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "2dbe0819-f888-483f-9455-944c40956c7b",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
                                         }
                                     }
                                 }
@@ -1414,7 +1839,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "This database contains all company related media which can be used in publications and for press material",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1438,7 +1863,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1458,11 +1883,65 @@
                 },
                 {
                     "node": {
+                        "id": "3ff1265d-6ece-45dd-806a-74fb430459f6",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Microsoft 365 is a web-based version of Microsoft's Office suite of productivity applications (Word, Excel, PowerPoint, and others).",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Microsoft 365"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "012b6a51-f430-46c0-ab76-9b583161c1ca",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Microsoft Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "adequate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "998463c6-3df0-45f3-a8bf-efd06b477986",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Microsoft Azure"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "ac23f57c-452a-4d59-b590-2885c9fcf6a9",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Microsoft Word 2016"
+                    }
+                },
+                {
+                    "node": {
                         "id": "4e7db63e-92ef-4c75-80ce-790af877c3fa",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1486,7 +1965,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "relevant for all newsletters for personalized marketing ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1510,7 +1989,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1530,11 +2009,35 @@
                 },
                 {
                     "node": {
+                        "id": "120819da-a4b3-4342-9ea4-58035ff75297",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Okta Advanced Server Access (Okta ASA) helps to provide secure SSH authentication to the LeanIX server infrastructure. Okta ASA authenticates through Okta.",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "insufficient",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "73183f6f-fdda-4f61-b79b-8ead100bdfa5",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Okta Advanced Server Access"
+                    }
+                },
+                {
+                    "node": {
                         "id": "3142ff97-7ddd-4f46-8075-f80d8279ff38",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1558,7 +2061,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Order Management System",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1582,22 +2085,37 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "OpenInno"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "e514bcf2-fd9b-4f14-8f57-3c6a85006188",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Opportunity is a JAVA based web application collecting events from multiple (micro-)services within LeanIX and other connected system, such as Zendesk, Hubspot etc. It is used as a starting point for most BI (Business Intelligence) solutions and investigations on the events in our production environments. Also called Opportunity Database.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
                                     "node": {
-                                        "id": "c83ee674-8d41-46e6-8e7e-59e171442a55",
+                                        "id": "5630dd7d-7e20-4015-9042-564118f90970",
                                         "factSheet": {
-                                            "id": "1f0064a5-c947-4040-9e40-c27a807536cb"
+                                            "id": "23012d95-e02d-4ad0-92d3-e9c81a6fe062"
                                         }
                                     }
                                 }
                             ]
                         },
-                        "displayName": "OpenInno"
+                        "displayName": "Opportunity"
                     }
                 },
                 {
@@ -1606,7 +2124,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios. ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1630,7 +2148,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios. ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1650,26 +2168,11 @@
                 },
                 {
                     "node": {
-                        "id": "2efa37b5-18aa-48d8-9d70-1328c0d856d7",
-                        "type": "Application",
-                        "category": null,
-                        "description": null,
-                        "businessCriticality": "belowaverage",
-                        "functionalSuitability": null,
-                        "technicalSuitability": null,
-                        "relApplicationToBusinessCapability": {
-                            "edges": []
-                        },
-                        "displayName": "Orgaplan Asia/Pacific / AC Management Cloud"
-                    }
-                },
-                {
-                    "node": {
                         "id": "f7c360bc-4b4b-423b-9996-813964a9f281",
                         "type": "Application",
                         "category": null,
                         "description": "With this tool you can plan and design your organizational structure. It is even possible to define certain scenarios.",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1693,7 +2196,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "The Orgaviewer presents the current organization as described in Orgaplan in a graphical view which can be zoomed and printed",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1717,7 +2220,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Contains all parts we are using in the company...this is relevant for product development, production and Warehouse Management",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1741,7 +2244,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1765,7 +2268,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1789,7 +2292,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "perfect",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -1809,11 +2312,83 @@
                 },
                 {
                     "node": {
+                        "id": "7ae8c4cf-91d7-452c-a289-e0df1f9c1992",
+                        "type": "Application",
+                        "category": null,
+                        "description": "With Pendo we are enhancing our Product Management Practice with a tool to measure feature success on a per click or per user basis. Bought add-ons: 1. CNAME feature so data is routed through data.usability.leanix.net 2. Salesforce Integration",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "unreasonable",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "8f38e9e6-c3d0-4c2d-9c36-ab93511a5e6b",
+                                        "factSheet": {
+                                            "id": "23012d95-e02d-4ad0-92d3-e9c81a6fe062"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Pendo"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "040e5c13-acac-4b1e-bb11-b3fb3895e764",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Pingdom tracks the uptime, downtime, and performance of websites from multiple locations globally so that it can distinguish genuine downtime from routing and access problems.",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "3a27b51b-d040-4442-93a3-f341db08b270",
+                                        "factSheet": {
+                                            "id": "23012d95-e02d-4ad0-92d3-e9c81a6fe062"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Pingdom"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "c6e5ff7f-01ba-42e4-a7a3-fc8b14dbf482",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Proven project management tool for agile teams from Pivotal Labs",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "unreasonable",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "9e986ea7-dd23-42e0-be1a-e9515f81af34",
+                                        "factSheet": {
+                                            "id": "87295628-8e69-414a-b6cf-19a8b72f3542"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "PivotalTracker"
+                    }
+                },
+                {
+                    "node": {
                         "id": "44295c93-d9dd-47a6-9137-2469221993d0",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1837,7 +2412,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "Research and Development Database with information about latest research initiatives and academic studies as a basis for further development activities",
-                        "businessCriticality": "better",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1861,7 +2436,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
@@ -1885,8 +2460,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "This application collects all revenue which has been produced by the different Bonus Card users and shows trendreports to evaluate the success of the bonus card loyalty program",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "unreasonable",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -1909,8 +2484,8 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -1933,8 +2508,8 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -1956,8 +2531,8 @@
                         "id": "0355d0b3-e601-4996-8f47-fccfc77e450c",
                         "type": "Application",
                         "category": null,
-                        "description": "Customer Relationship Management from salesforce, light because we just use the professional version",
-                        "businessCriticality": "better",
+                        "description": "Salesforce provides customer relationship management (CRM) software for managing all the company’s relationships and interactions with all the potential customers.",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -1972,7 +2547,37 @@
                                 }
                             ]
                         },
-                        "displayName": "salesforce Light"
+                        "displayName": "Salesforce CRM"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "5844ac2f-bdb8-4e80-a071-357a9b6565bf",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Salesforce Marketing Cloud provides digital marketing automation and analytics software and services. Salesforce Marketing Cloud enables users to build and manage personalised customer journeys while allowing them to track and measure the performance of their campaigns and journeys.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Salesforce Marketing Cloud"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "2144d185-24d0-47fe-8ab5-c2fcafea79b7",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "SAP ERP"
                     }
                 },
                 {
@@ -1981,7 +2586,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -1996,7 +2601,7 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP BI"
+                        "displayName": "SAP ERP / SAP BI"
                     }
                 },
                 {
@@ -2004,8 +2609,8 @@
                         "id": "fc2b0641-6172-40cf-9dbb-10e514c7e341",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "better",
+                        "description": "SAP Controlling is one of the Functional Modules of SAP that deals with the cost calculation, cost analysis, cost planning and overhead management of the business. As you must know there are two types of reporting in any business i.e. External Reporting and Internal Reporting.",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -2036,7 +2641,7 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP CO"
+                        "displayName": "SAP ERP / SAP CO"
                     }
                 },
                 {
@@ -2045,8 +2650,8 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -2068,7 +2673,7 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP FI"
+                        "displayName": "SAP ERP / SAP FI"
                     }
                 },
                 {
@@ -2076,12 +2681,20 @@
                         "id": "a3934b25-387a-49af-a8ea-a3ec2c4cd872",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "description": "SAP FSCM is a set of applications that can give you improved visibility and control of your accounts receivable by allowing you to manage customer-related financial functions, (including billing, receivables, collections, and risk assessment), all within your SAP ERP system",
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "unreasonable",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
+                                {
+                                    "node": {
+                                        "id": "0bb18b8e-1521-4f8d-9694-7dd8fda53ff9",
+                                        "factSheet": {
+                                            "id": "79476f43-bde8-49f4-99f5-a7af50aaa5d7"
+                                        }
+                                    }
+                                },
                                 {
                                     "node": {
                                         "id": "1283d6fa-ff74-4766-b96f-c884e5b10416",
@@ -2092,7 +2705,7 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP FSCM"
+                        "displayName": "SAP ERP / SAP FSCM"
                     }
                 },
                 {
@@ -2101,8 +2714,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "SAP Materials Management System. Inventory, Materials, Parts",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -2116,7 +2729,7 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP MM"
+                        "displayName": "SAP ERP / SAP MM"
                     }
                 },
                 {
@@ -2125,7 +2738,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "SAP Supply Chain Management handles everything with regards to our supply chain, from planning, coordination with our supplier and customer. It is fully integrated with our Warehouse Management",
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -2140,7 +2753,190 @@
                                 }
                             ]
                         },
-                        "displayName": "SAP SCM"
+                        "displayName": "SAP ERP / SAP SCM"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "34b38828-b0f0-40e9-b926-0aa9723b3879",
+                        "type": "Application",
+                        "category": null,
+                        "description": "SAP S/4HANA Cloud is an ERP system with embedded AI and machine learning.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "SAP S/4HANA Cloud"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "688393cd-7d02-4457-85f7-dfa0e1a7dfef",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "9a6fe409-2dbc-482a-a10d-588c3dafcb9d",
+                                        "factSheet": {
+                                            "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP BI"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "daa4a23a-e201-42ed-b27f-c92a3749dbc4",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "30ac8963-4fda-42f0-8035-04efeada1f7d",
+                                        "factSheet": {
+                                            "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "1d8d1988-0423-4f40-95be-17b0067e1a7f",
+                                        "factSheet": {
+                                            "id": "833016fa-3401-4089-96e6-f8b08fa142e5"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "ef9e900c-388b-4581-95b8-b388c880e006",
+                                        "factSheet": {
+                                            "id": "79476f43-bde8-49f4-99f5-a7af50aaa5d7"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP CO"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "00a86d59-2de3-47a8-af8d-330b914816a9",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "598a541d-9289-4ba1-88b6-0fc7bb22d53a",
+                                        "factSheet": {
+                                            "id": "7a32ec08-786b-4fd2-b7b5-f5a0b912dcd0"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "d0b82487-bb67-4aa6-9e95-27e7c521c8c6",
+                                        "factSheet": {
+                                            "id": "79476f43-bde8-49f4-99f5-a7af50aaa5d7"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP FI"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "eca36251-a842-402a-9415-a3a634b30823",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "ffab8bb1-387d-4fbb-9314-1a57093a13b6",
+                                        "factSheet": {
+                                            "id": "a7a021c3-796a-4ac6-a4c9-6b4de589d393"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP FSCM"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "26347342-ddb6-430a-85c5-1feb18ff1653",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "8f43a526-7d34-42d3-9e62-a56238ae4d07",
+                                        "factSheet": {
+                                            "id": "ca869a5b-6c2e-4887-94df-6eb33138d490"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP MM"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "ea51841d-8546-4656-b592-63898fea3fdb",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "7b7fcfde-91cc-44aa-a0e6-973f2b75fdb3",
+                                        "factSheet": {
+                                            "id": "ca869a5b-6c2e-4887-94df-6eb33138d490"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "SAP S/4HANA Cloud / SAP SCM"
                     }
                 },
                 {
@@ -2149,8 +2945,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "This is for production planning and managing in the Asia production factory",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -2169,11 +2965,75 @@
                 },
                 {
                     "node": {
+                        "id": "a346ca19-8571-432a-b8cd-1aa5e54c9687",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Here we maintain all our DNS records",
+                        "businessCriticality": "businessCritical",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "e5c163ab-b828-4928-aed1-cdb7c4f4f4b4",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Schlund"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "cb3cdc31-046f-4cd0-a2e5-717044858be1",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Sentry is a Bug Tracking Software provides real-time crash reporting for web apps, mobile apps, and games. From error tracking to performance monitoring, developers can see what actually matters, solve, and learn continuously about their applications from the frontend to the backend.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "3e6ab390-f48d-42e3-be9f-ad89aaf834dc",
+                                        "factSheet": {
+                                            "id": "3de4562a-0634-4374-913c-5c58b964fe59"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "659c4c27-041f-4cca-b72a-c17137c4b3ab",
+                                        "factSheet": {
+                                            "id": "23012d95-e02d-4ad0-92d3-e9c81a6fe062"
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "60fbd4eb-ea00-4f65-9513-27fcdaaaa1ff",
+                                        "factSheet": {
+                                            "id": "87295628-8e69-414a-b6cf-19a8b72f3542"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Sentry"
+                    }
+                },
+                {
+                    "node": {
                         "id": "e9d4d782-de57-4419-a27c-03f1e395f3ab",
                         "type": "Application",
                         "category": null,
                         "description": "Online Chat Tool for real-time and online support desk operation at our web products",
-                        "businessCriticality": "better",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
@@ -2197,8 +3057,8 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -2221,8 +3081,8 @@
                         "type": "Application",
                         "category": null,
                         "description": "statistical and analysis software for monitoring and analyzing the data from the production process",
-                        "businessCriticality": "better",
-                        "functionalSuitability": "appropriate",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
@@ -2241,26 +3101,65 @@
                 },
                 {
                     "node": {
-                        "id": "2c39107a-51a0-4bce-a539-d59bdbca2c0f",
+                        "id": "5fa61f2c-a03b-4fb2-8c76-696bfa737899",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "best",
+                        "description": "StatusPage provides hosted status pages for web and mobile applications. Statuspage is the communication piece of your incident management process. Keep users in the loop from 'investigating' through 'resolved'. Statuspage integrates with favorite monitoring, alerting, chat, and help desk tools for efficient response every time.",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "unreasonable",
                         "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
                                     "node": {
-                                        "id": "e496cbf9-0d82-4c86-959f-2a8b16e4172b",
+                                        "id": "ae072b8b-39ad-47f2-aa31-3e03a74f45d6",
                                         "factSheet": {
-                                            "id": "a89797a2-1561-42f5-9358-3bebdc3614a7"
+                                            "id": "3de4562a-0634-4374-913c-5c58b964fe59"
                                         }
                                     }
                                 }
                             ]
                         },
+                        "displayName": "Statuspage"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "2c39107a-51a0-4bce-a539-d59bdbca2c0f",
+                        "type": "Application",
+                        "category": null,
+                        "description": null,
+                        "businessCriticality": "missionCritical",
+                        "functionalSuitability": "appropriate",
+                        "technicalSuitability": "unreasonable",
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
                         "displayName": "Stocky"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "b74f1fe4-bddf-428b-8af5-ad82e6e84dcc",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Rented / leased dedicated root servers provided by Strato",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "unreasonable",
+                        "technicalSuitability": "inappropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "aa805aca-ae4b-4b62-aecc-089da020c259",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Strato Dedicated Servers"
                     }
                 },
                 {
@@ -2269,20 +3168,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "best",
-                        "functionalSuitability": "unreasonable",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "67cad152-8cff-403a-8f29-56ba5287dc6e",
-                                        "factSheet": {
-                                            "id": "a89797a2-1561-42f5-9358-3bebdc3614a7"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Supplier Tracking Germany"
                     }
@@ -2293,20 +3183,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "best",
-                        "functionalSuitability": "unreasonable",
+                        "businessCriticality": "administrativeService",
+                        "functionalSuitability": "perfect",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "34a48821-6cfa-414c-841e-2419b4100340",
-                                        "factSheet": {
-                                            "id": "a89797a2-1561-42f5-9358-3bebdc3614a7"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Supplier Tracking Poland"
                     }
@@ -2317,20 +3198,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "best",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "42b96b6b-e368-4a3b-a4a4-a44c0076ff35",
-                                        "factSheet": {
-                                            "id": "a89797a2-1561-42f5-9358-3bebdc3614a7"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Supplier Tracking USA"
                     }
@@ -2341,7 +3213,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "best",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -2361,13 +3233,37 @@
                 },
                 {
                     "node": {
+                        "id": "a4ae3891-ae7d-4fdf-9966-a75b7261c647",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Terraform Cloud is a SaaS offering that allows to efficiently maintain & scale your cloud infrastructure using the industry standard \"Infrastructure as Cloud\" tool Terraform.",
+                        "businessCriticality": "businessOperational",
+                        "functionalSuitability": "perfect",
+                        "technicalSuitability": "fullyAppropriate",
+                        "relApplicationToBusinessCapability": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "94e59c54-4133-438f-91ae-237128c2594a",
+                                        "factSheet": {
+                                            "id": "897528d1-ed42-4ed1-a41f-9e7b820d893c"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "displayName": "Terraform Cloud"
+                    }
+                },
+                {
+                    "node": {
                         "id": "0f535fd8-5ef6-42b1-85dd-b87ebd19224c",
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "best",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "insufficient",
-                        "technicalSuitability": "fullyAppropriate",
+                        "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2389,7 +3285,7 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "worst",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "inappropriate",
                         "relApplicationToBusinessCapability": {
@@ -2413,9 +3309,9 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "worst",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "insufficient",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2437,20 +3333,11 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "worst",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "46ec81d4-688d-42c9-b9f1-5b73f10ab6da",
-                                        "factSheet": {
-                                            "id": "f4120e92-4517-4f2f-8b75-cf3efddf7b82"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "Transport Timestamp"
                     }
@@ -2461,20 +3348,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "TUPPAS supports the management of production in USA, scheduling, reporting, inventory, TQM, ...",
-                        "businessCriticality": "worst",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "unreasonable",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "f3aae6d3-53a4-4fce-95e5-9a00bd952a26",
-                                        "factSheet": {
-                                            "id": "ca869a5b-6c2e-4887-94df-6eb33138d490"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "TUPPAS"
                     }
@@ -2485,7 +3363,7 @@
                         "type": "Application",
                         "category": null,
                         "description": "You do not know twitter? It is from birdie",
-                        "businessCriticality": "worst",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
@@ -2508,10 +3386,10 @@
                         "id": "d1080953-0051-49d9-972b-4a9addf0b321",
                         "type": "Application",
                         "category": null,
-                        "description": null,
-                        "businessCriticality": "worst",
+                        "description": "Ultimo is an Enterprise Asset Management software with an unmatched ROI. It can be applied to planning, monitoring, optimization, execution, and tracking of all required maintenance activities. ",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "appropriate",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2533,9 +3411,9 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "worst",
+                        "businessCriticality": "administrativeService",
                         "functionalSuitability": "appropriate",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2557,9 +3435,9 @@
                         "type": "Application",
                         "category": null,
                         "description": null,
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "missionCritical",
                         "functionalSuitability": "perfect",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "fullyAppropriate",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2581,9 +3459,9 @@
                         "type": "Application",
                         "category": null,
                         "description": "With WebTime every Employee with an Intranet Access can edit their working time on a daily basis",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "unreasonable",
-                        "technicalSuitability": "adequate",
+                        "technicalSuitability": "unreasonable",
                         "relApplicationToBusinessCapability": {
                             "edges": [
                                 {
@@ -2605,20 +3483,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "WMS large is a warehouse management system used in medium and large countries. It was purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management. Cycle Counting to manage inventory cycle counts. ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "b2a79fe7-ea39-4759-a815-12b469f387d6",
-                                        "factSheet": {
-                                            "id": "3aa61ccf-636c-4409-b240-4ba774aae456"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "WMS large"
                     }
@@ -2629,20 +3498,11 @@
                         "type": "Application",
                         "category": null,
                         "description": "WMS light is a warehouse management system used in smaller countries. It was purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management. Cycle Counting to manage inventory cycle counts. ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessOperational",
                         "functionalSuitability": "appropriate",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "c800000f-76a1-42cb-9b43-b6be194f4285",
-                                        "factSheet": {
-                                            "id": "3aa61ccf-636c-4409-b240-4ba774aae456"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "WMS light"
                     }
@@ -2653,22 +3513,28 @@
                         "type": "Application",
                         "category": null,
                         "description": "WMS is a warehouse management system used in special situations. It is based on the software we purchased in 2001 from Redmoon software USA. We own the Source code. The module cover: Inventory Management which provides inventory information for each warehouse, Bar Code System, vendor information, Parts codes, physical inventory management.  ",
-                        "businessCriticality": "belowaverage",
+                        "businessCriticality": "businessCritical",
                         "functionalSuitability": "insufficient",
                         "technicalSuitability": "adequate",
                         "relApplicationToBusinessCapability": {
-                            "edges": [
-                                {
-                                    "node": {
-                                        "id": "bacf66d0-e366-4f75-afff-cb445e3d8f79",
-                                        "factSheet": {
-                                            "id": "3aa61ccf-636c-4409-b240-4ba774aae456"
-                                        }
-                                    }
-                                }
-                            ]
+                            "edges": []
                         },
                         "displayName": "WMS special"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "811454b2-5a71-4335-a5a6-188b3118cc47",
+                        "type": "Application",
+                        "category": null,
+                        "description": "Workday offers enterprise-level software solutions for human resource and financial management.",
+                        "businessCriticality": null,
+                        "functionalSuitability": null,
+                        "technicalSuitability": null,
+                        "relApplicationToBusinessCapability": {
+                            "edges": []
+                        },
+                        "displayName": "Workday"
                     }
                 }
             ]
