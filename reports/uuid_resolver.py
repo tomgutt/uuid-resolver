@@ -41,14 +41,81 @@ def get_access_token(base_url, ws_token):
     else:
         raise Exception(f"Could not get access_token. Status: {response.status_code} Message: {response.text}")
 
+def transform_json_structure(data):
+    """Transform and normalize the JSON structure from LeanIX GraphQL response.
+    
+    This function performs several transformations on the input JSON:
+    1. Extracts and prints totalCount and pageInfo from data.current
+    2. Renames fields for better readability:
+       - 'relToParent' becomes 'RelationToParent'
+       - 'relToChild' becomes 'RelationToChild'
+       - 'relXToY' patterns become 'RelationToY' (e.g., relApplicationToBusinessCapability -> RelationToBusinessCapability)
+    3. Recursively processes nested structures
+    
+    Args:
+        data: Dict or other JSON-serializable object to transform
+        
+    Returns:
+        Dict with transformed structure maintaining all essential data
+    """
+    if not isinstance(data, dict):
+        return data
+
+    new_data = {}
+    for key, value in data.items():
+        new_key = key
+        
+        # Handle the data.current case
+        if key == 'data' and isinstance(value, dict) and 'current' in value:
+            # Extract totalCount and pageInfo into reportPageInfo
+            report_page_info = {
+                'totalCount': value['current'].get('totalCount'),
+                'pageInfo': value['current'].get('pageInfo')
+            }
+            print("\nReport Page Info:")
+            print(json.dumps(report_page_info, indent=2))
+            
+            # Transform the edges content
+            if 'edges' in value['current']:
+                edges_content = transform_json_structure({'edges': value['current']['edges']})
+                new_data[key] = edges_content
+            continue
+        
+        # Handle relXToY patterns
+        if isinstance(key, str) and key.startswith('rel'):
+            if key == 'relToParent':
+                new_key = 'RelationToParent'
+            elif key == 'relToChild':
+                new_key = 'RelationToChild'
+            elif 'To' in key:
+                # Find everything after the first 'To'
+                parts = key.split('To', 1)
+                if len(parts) > 1:
+                    new_key = 'RelationTo' + parts[1]
+        
+        # Recursively transform nested structures
+        if isinstance(value, dict):
+            value = transform_json_structure(value)
+        elif isinstance(value, list):
+            value = [transform_json_structure(item) if isinstance(item, (dict, list)) else item for item in value]
+        
+        new_data[new_key] = value
+    
+    return new_data
+
 def count_uuids(data):
     count = 0
     if isinstance(data, dict):
+        # First count UUIDs in nested objects
         for value in data.values():
             if isinstance(value, (dict, list)):
                 count += count_uuids(value)
-            elif isinstance(value, str) and is_uuid(value):
-                count += 1
+        
+        # Only count UUIDs in current object if no displayName
+        if "displayName" not in data:
+            for value in data.values():
+                if isinstance(value, str) and is_uuid(value):
+                    count += 1
     elif isinstance(data, list):
         for item in data:
             if isinstance(item, (dict, list)):
@@ -64,8 +131,8 @@ def resolve_uuid(uuid, retries=10, wait=10):
     query = f"""
             {{
                 factSheet(id: "{uuid}") {{
-                    name
                     type
+                    fullName
                 }}
             }}
             """
@@ -86,12 +153,12 @@ def resolve_uuid(uuid, retries=10, wait=10):
                 if 'errors' in response_data:
                     print(f"({current_item}/{total_uuids}) | Could not resolve UUID: {uuid}")
                     error_count += 1
-                    return uuid  # Return UUID if there are errors in the response
+                    return None  # Return None if there are errors in the response
                 else:
-                    resolvedString = f"{response_data['data']['factSheet']['type']}: {response_data['data']['factSheet']['name']}"
-                    print(f"({current_item}/{total_uuids}) | UUID: {uuid} resolved to: {resolvedString}")
+                    fact_sheet = response_data['data']['factSheet']
+                    print(f"({current_item}/{total_uuids}) | UUID: {uuid} resolved to: {fact_sheet['type']}: {fact_sheet['fullName']}")
                     resolution_count += 1
-                    return resolvedString
+                    return fact_sheet
 
         except requests.exceptions.HTTPError:
             if response.status_code == 429:
@@ -119,26 +186,58 @@ def contains_uuid(obj):
 
 def extract_and_resolve(data):
     if isinstance(data, dict):
+        # Process all nested objects first
         for key, value in list(data.items()):  # Use list to avoid dictionary size change during iteration
             if isinstance(value, (dict, list)):
                 extract_and_resolve(value)
-            elif isinstance(value, str) and is_uuid(value):
-                resolved_value = resolve_uuid(value)
-                if resolved_value != value:  # If resolution was successful
-                    if key == "id":
-                        # Replace the 'id' key with 'name'
-                        data.pop("id")
-                        data["name"] = resolved_value
-                    else:
-                        data[key] = resolved_value
+        
+        # Only resolve UUIDs in the current object if no displayName
+        if "displayName" not in data:
+            for key, value in list(data.items()):
+                if isinstance(value, str) and is_uuid(value):
+                    resolved_value = resolve_uuid(value)
+                    if resolved_value:  # If resolution was successful
+                        if key == "id":
+                            # Add type and fullName separately
+                            data["type"] = resolved_value["type"]
+                            data["fullName"] = resolved_value["fullName"]
+                        else:
+                            data[key] = value  # Keep the UUID
+                            data["type"] = resolved_value["type"]
+                            data["fullName"] = resolved_value["fullName"]
     elif isinstance(data, list):
         for i, item in enumerate(data):
             if isinstance(item, (dict, list)):
                 extract_and_resolve(item)
             elif isinstance(item, str) and is_uuid(item):
-                data[i] = resolve_uuid(item)
+                resolved_value = resolve_uuid(item)
+                if resolved_value:
+                    data[i] = {
+                        "id": item,
+                        "type": resolved_value["type"],
+                        "fullName": resolved_value["fullName"]
+                    }
+                else:
+                    data[i] = item
 
-def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects):
+def count_fact_sheets(data):
+    count = 0
+    if isinstance(data, dict):
+        # Count all UUIDs in values
+        for value in data.values():
+            if isinstance(value, str) and is_uuid(value):
+                count += 1
+            elif isinstance(value, (dict, list)):
+                count += count_fact_sheets(value)
+    elif isinstance(data, list):
+        for item in data:
+            if isinstance(item, str) and is_uuid(item):
+                count += 1
+            elif isinstance(item, (dict, list)):
+                count += count_fact_sheets(item)
+    return count
+
+def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects, total_fact_sheets):
     global base_url, access_token
     global resolution_count, error_count, total_uuids
     resolution_count = 0
@@ -150,9 +249,11 @@ def resolve_uuids_from_bookmark_objects(baseUrl, accessToken, bookmark_objects):
     total_uuids = count_uuids(bookmark_objects)
     print(f"\nStarting UUID resolution process... (Total UUIDs to resolve: {total_uuids})")
     extract_and_resolve(bookmark_objects)
+    
     print(f"\nUUID resolution completed:")
     print(f"- Successfully resolved: {resolution_count}/{total_uuids}")
     print(f"- Failed to resolve: {error_count}/{total_uuids}")
+    print(f"- Total Fact Sheets in input: {total_fact_sheets}")
 
 def initialize_workspace(instance, ws_token):
     """Initialize workspace and get access token"""
@@ -173,8 +274,14 @@ def process_input_file(input_file, output_file, instance, ws_token):
     with open(input_file, 'r') as f:
         data = json.load(f)
     
+    # Count fact sheets before transformation
+    total_fact_sheets = count_fact_sheets(data)
+    
+    # Transform JSON structure
+    data = transform_json_structure(data)
+    
     # Resolve UUIDs
-    resolve_uuids_from_bookmark_objects(base_url, access_token, [data])
+    resolve_uuids_from_bookmark_objects(base_url, access_token, [data], total_fact_sheets)
     
     # Write output
     with open(output_file, 'w') as f:

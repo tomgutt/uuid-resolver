@@ -5,3 +5,4 @@ venv/
 # Python requirements
 requirements.txt
 requirements.lock 
+.DS_Store
