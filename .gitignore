@@ -1,0 +1,7 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python requirements
+requirements.txt
+requirements.lock 
